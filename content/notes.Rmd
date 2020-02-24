@@ -1,0 +1,43 @@
+---
+title: "Untitled"
+output: github_document
+---
+
+
+## Generla stuff
+http://teachtogether.tech/
+http://darribas.org/gds19/
+https://github.com/rdpeng/courses
+
+
+## Session 1
+
+* Why are you scientist/researcher?
+  * What are your motivations?
+* Quizz 1
+* My history: RR AGILE
+* RR is not a new problem. Origin
+  * https://en.wikipedia.org/wiki/Reproducibility
+  * https://en.wikipedia.org/wiki/Robert_Boyle
+  * https://en.wikipedia.org/wiki/Works_by_Francis_Bacon
+  * [Irreproducibility is not a sign of failure, but an inspiration for fresh ideas](https://www.nature.com/articles/d41586-020-00380-2)
+  
+* Current research publications suffer from (Cosit 2019)
+  * Low reproducibility, difficult re-ure
+  * difficult follow-up computational analysis, data-driven searches
+  * no deeper exploration/inspection 
+
+## Other inputs
+
+* Ejemplos de reproducibilidad en otros dominios: economía“Analyzing Financial and Economic Data with R"
+https://www.msperlin.com/blog/post/2019-11-25-feedback-toc-afedr/ 
+https://www.msperlin.com/pafdR/
+* PodcastWorking scientist podcast: How technology can help solve science's reproducibility crisis
+https://www.nature.com/articles/d41586-019-01333-0
+* [granolarr: a reproducible resource for teaching geographic data science in R](https://sdesabbata.github.io/granolarr/)
+* [This AI researcher is trying to ward off a reproducibility crisis](https://www.nature.com/articles/d41586-019-03895-5)
+* [Reproducible big data science: A case study in continuous FAIRness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213013)
+* [Science in hand: how art and craft can boost reproducibility](https://www.nature.com/articles/d41586-018-07676-4)
+* [Impact of Social Sciences – To save the research literature, let’s make literature reviews reproducible](https://blogs.lse.ac.uk/impactofsocialsciences/2018/06/19/to-save-the-research-literature-lets-make-literature-reviews-reproducible/)
+
+
