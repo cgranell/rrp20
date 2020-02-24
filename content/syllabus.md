@@ -43,7 +43,8 @@ In this course you will get an introduction to the main ideas and tools to acqui
 
 * Session 01: Introduction to reproducible research (4 hr.)
   * 01_01: Practical arrangements
-  * 01_02: 
+  * 01_02: Historical notes
+  * 01_03: Reproducible Research AGILE (our story)
 
 * Session 02: Preliminaries (3 hr.)
   * 02_01: Steps in reproducibility

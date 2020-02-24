@@ -14,16 +14,7 @@ https://osf.io/j97zp/
 
 ## Session 1
 
-* Why are you scientist/researcher?
-  * What are your motivations?
 
-* My history: RR AGILE
-* RR is not a new problem. Origin
-  * https://en.wikipedia.org/wiki/Reproducibility
-  * https://en.wikipedia.org/wiki/Robert_Boyle
-  * https://en.wikipedia.org/wiki/Works_by_Francis_Bacon
-  * [Irreproducibility is not a sign of failure, but an inspiration for fresh ideas](https://www.nature.com/articles/d41586-020-00380-2)
-  
 * Current research publications suffer from (Cosit 2019)
   * Low reproducibility, difficult re-ure
   * difficult follow-up computational analysis, data-driven searches
@@ -38,7 +29,8 @@ https://osf.io/j97zp/
 
 ## Other inputs
 
-* Ejemplos de reproducibilidad en otros dominios: economía“Analyzing Financial and Economic Data with R"
+* Ejemplos de reproducibilidad en otros dominios: 
+economía“Analyzing Financial and Economic Data with R"
 https://www.msperlin.com/blog/post/2019-11-25-feedback-toc-afedr/ 
 https://www.msperlin.com/pafdR/
 * PodcastWorking scientist podcast: How technology can help solve science's reproducibility crisis

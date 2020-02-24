@@ -1,0 +1,136 @@
+
+RRP'20 - Historical notes
+========================================================
+author: Carlos Granell
+date: March 2020
+transition: rotate
+css: rpp.css
+
+<small>
+[GEOTEC research group](http://geotec.uji.es/)      
+Universitat Jaume I   
+</small>
+
+Quote
+===
+
+American science-fiction author [Robert A. Heinlei](https://en.wikipedia.org/wiki/Robert_A._Heinlein)
+
+<span class="quote">“When one teaches, two learn.”</span>
+
+The profession of the scientist
+===
+
+- Why are you scientist/researcher?
+- What are your motivations?
+
+The profession of the scientist
+===
+
+-
+-
+
+
+Reproducibility in Science
+===
+
+- Central pillar to avance science and knowledge
+-
+
+
+Is reproduciblity a new problem?
+===
+
+<span class="center">Look back to the 17th century...</span>
+
+
+Is reproduciblity a new problem?
+===
+
+Air-pump was one of the first documented disputes over reproducibility
+- Dutch in Amsterdam. He reported an effect he termed "anomalous suspension".
+- [Robert Boyle](https://en.wikipedia.org/wiki/Robert_Boyle) in UK could not replicate this phenomenon in his own air pumps.
+- Huygens was invited to England in 1663, and under his personal guidance Hooke was able to replicate anomalous suspension of water.
+
+Source: https://en.wikipedia.org/wiki/Reproducibility
+
+Is reproduciblity a new problem?
+===
+
+[Francis Bacon](https://en.wikipedia.org/wiki/Works_by_Francis_Bacon) (1561–1626) 
+  - a pioneer of the scientific method.
+  
+***
+![Lord Bacon](figs/Lord_Bacon.jpg)
+
+Is reproduciblity a new problem?
+===
+
+[Robert Boyle](https://en.wikipedia.org/wiki/Robert_Boyle) (1627–1691)
+  - a pioneer of the experimental method:
+  - "By repeating the same experiment over and over again, the certainty of fact will emerge."
+
+***
+![Robert Boyle](figs/Robert_Boyle.jpg)
+
+
+Is reproduciblity a new problem?
+===
+
+<span class="center">Look back to 40 yeas ago, with the advent of personal computers...</span>
+
+
+Is reproduciblity a new problem?
+===
+
+D. E. Knuth (1984) [Literate Programming](https://doi.org/10.1093/comjnl/27.2.97). The Computer Journal, 27(2): 97–111, 
+
+  - While developing TeX, Knuth created a new methodology of programming, which he called [literate programming](https://en.wikipedia.org/wiki/Literate_programming).
+
+***
+![Knuth](figs/Knuth.jpg)
+
+
+Is reproduciblity a new problem?
+===
+
+<span class="center">Look back to 30 yeas ago, with the advent of Internet...</span>
+
+
+Is reproduciblity a new problem?
+===
+Jon F. Claerbout and Martin Karrenbach (1992) [Electronic documents give reproducible research a new meaning](https://doi.org/10.1190/1.1822162), SEG Technical Program Expanded Abstracts: 601-604.
+
+***
+![alt text](figs/Claerbout92.png)
+
+
+Reproducibility today
+===
+
+R. Peng (2011) [Reproducible Research in Computational Science](https://science.sciencemag.org/content/334/6060/1226)
+  - Spectrum...
+
+[1,500 scientists lift the lid on reproducibility](https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970) 2015
+  - more than 70% of researchers have tried and failed to reproduce another scientist's experiments
+  - more than 50% have failed to reproduce their own experiments
+
+
+[Opinion: Is science really facing a reproducibility crisis, and do we need it to?](http://www.pnas.org/cgi/doi/10.1073/pnas.1708272114)
+
+
+
+What does reproducibility mean... for a PhD thesis?
+===
+
+
+[Five selfish reasons to work reproducibly](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0850-7) 2015
+  - https://github.com/bioinformatics-core-shared-training/rep-research-masterclass/blob/gh-pages/stephen/neurocase1.Rmd
+
+
+- [Irreproducibility is not a sign of failure, but an inspiration for fresh ideas](https://www.nature.com/articles/d41586-020-00380-2)
+
+
+https://osf.io/b3myq/
+
+https://www.sciencegeist.ch/topic/reproducibility

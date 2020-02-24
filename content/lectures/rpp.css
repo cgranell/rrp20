@@ -6,8 +6,15 @@
   -moz-hyphens: none;
 }
 
-.midcenter {
-    position: fixed;
-    top: 50%;
-    left: 40%;
+.quote {
+  position: fixed;
+  top: 40%;
+  left: 40%;
+}
+
+.center {
+  position: fixed;
+  top: 40%;
+  left:20%;
+  font-size: 300%;
 }
