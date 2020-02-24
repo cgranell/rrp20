@@ -14,48 +14,75 @@ keywords:
 ---
 
 
-# Course Title
+# Course title
 
-Data Scientist's Toolbox
+Reproducible Research Practices
 
 ---
 
-## Course Instructor(s)
+## Course instructor(s)
 [Carlos Granell](http://carlosgranell.eu) 
 
 ---
 
-## Course Description
+## Motivation 
 
-In this course you will get an introduction to the main tools and ideasin the data scientists toolbox. The course gives an overview of the data, questions, and tools that data analysts and data scientists work with. There are two components to this course. The first is a conceptual introduction to the ideas behind turning data into actionable knowledge. The second is a practical introduction to the tools that will be used in the program like version control, markdown, git, Github, R, and Rstudio. 
+It is increasingly common to find articles published in academic journals that use computational analysis in the methods section and/or for the generation of the results. It is not necessary that an article aims to design and develop a computer tool. In other fields, whether social sciences, economics, or health, many scientific papers use various tools and computational methods to, for example, process survey data in the form of a table or graphs, or to contextualize socio-economic data of a study area on a map.
+
+The tools and computational methods are a fundamental part of the development of scientific projects in any discipline. However, despite its importance, little attention is paid to the formation of young researchers in the application of reproducible computational methods in their research daily tasks. It seems that students and young researchers learn to use these computational tools “on the fly”, but without paying enough attention if such computational methods could be used or leveraged more efficiently in their own research. Sometimes, software and project data are poorly organised and stored, without documentation and no control of dependencies. As a consequence, a common scenario is that a researcher who developed a code for an article does not know or can execute or recreate it six months later.
+
+Reproducibility is key in a doctoral thesis project. The acquisition of habits and good practices for a young researcher is essential so that the results obtained (whether maps, tables, graphs, statistics or resources for which computational methods are essential) are reliable and understandable. and, above all, reproducible throughout the doctoral period (and beyond).
+
+## Course description
+
+In this course you will get an introduction to the main ideas and tools to acquire reproducible research practices. There are two components to this course. The first is a conceptual introduction to the ideas and issues behind  turning a research project or scientific article into a reproducible research project/article. The second is a practical introduction to the tools that will be used in the course to support reproduciblility. 
 
 ---
 
-## Course Content
+## Course content
 
-* Track motivation
-* Getting help
-* Introduction to basic tools 
-  * R 
-  * Rstudio 
-  * Git 
-  * Github
-* Types of data questions
-* Steps in a data analysis
-* Putting the science in data science
+* Session 01: Introduction to reproducible research (4 hr.)
+  * 01_01:
 
+
+* Session 02: Preliminary practices (4 hr.)
+  * 02_01: Steps in reproducibility
+    * input data
+    * methods: data preprocessing, methods, computationl environment
+    * results
+  * 02_02: Introduction to basic tools 
+    * R 
+    * Rstudio 
+    * Git 
+    * Github
+    * Open Science Foundation
+
+* Session 03: Practices during the project (3 hr.)  
+  * Virtual containers
+  * Permanent archivas (DOI)
+
+* Session 04: Reproducible notebook and articles (3 hr)
+  * Notebooks and Comptiational narratives. Literate programming. Markdow format
+  * Notebooks for writing scientific articles
+  * Notebooks for presentations
+
+* Session 05: Reviews (3 hr)
+  * How to read a resarc apperç
+  * How to read a reseach compendium
+
+* Session 06: final project (4 hr)
+  
 ---
 
 ## Lecture Materials
 
-Lecture videos will be released weekly and will be available for the week and thereafter. You are welcome to view them at your convenience. Accompanying each video lecture will be a PDF copy of the slides and a link to an HTML5 version of the slides. 
+Lectures are available in this repo. You are welcome to view them at your convenience. Each lecture is available in a PDF and HTML5 formats. 
 
 ---
 
 ## Typos
 
 * We are prone to a typo or two - please report them and we will try to update the notes accordingly. 
-* In some cases, the videos may still contain typos that havebeen fixed in the lecture notes. The lecture notes representthe most up-to-date version of the course material.
 
 ---
 
