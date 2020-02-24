@@ -88,11 +88,11 @@ Lectures are available in this repo. You are welcome to view them at your conven
 
 ## Code of Conduct
 
-> To ensure a welcoming environment for all, we require everyone participating in the workshop to conform to the Code of Conduct given below. This code applies to all spaces related to the workshop including, but not limited to, workshop venue, emails, shared documents, and code repositories. We strongly recommend that anyone running workshops or classes of any kind choose and publish a similar code so that everyone will know what is expected of them and what to do when those expectations are not met.
+> To ensure a welcoming environment for all, we require everyone participating in the course to conform to the Code of Conduct given below. This code applies to all spaces related to the course including, but not limited to, classroom, 'aula virtual', emails, shared documents, and code repositories. We strongly recommend that anyone running workshops or classes of any kind choose and publish a similar code so that everyone will know what is expected of them and what to do when those expectations are not met.
 
 You can report Code of Conduct violations in person to Carlos Granell.
 
-We are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. However, we recognize that some groups in our community are subject to historical and ongoing discrimination, and may be vulnerable or disadvantaged. Membership in such a specific group can be on the basis of characteristics such as such as gender, sexual orientation, disability, physical appearance, body size, race, nationality, sex, color, ethnic or social origin, pregnancy, citizenship, familial status, veteran status, genetic information, religion or belief, political or any other opinion, membership of a national minority, property, birth, age, or choice of text editor. We do not tolerate harassment of participants on the basis of these categories, or for any other reason.
+We are dedicated to providing a welcoming and supportive environment for all people, regardless of background or identity. However, we recognize that some groups in our community are subject to historical and ongoing discrimination, and may be vulnerable or disadvantaged. Membership in such a specific group can be on the basis of characteristics such as gender, sexual orientation, disability, physical appearance, body size, race, nationality, sex, color, ethnic or social origin, pregnancy, citizenship, familial status, veteran status, genetic information, religion or belief, political or any other opinion, membership of a national minority, property, birth, age, or choice of text editor. We do not tolerate harassment of participants on the basis of these categories, or for any other reason.
 
 Harassment is any form of behavior intended to exclude, intimidate, or cause discomfort. Because we are a diverse community, we may have different ways of communicating and of understanding the intent behind actions. Therefore we have chosen to prohibit certain forms of behavior in our community, regardless of intent.
 
@@ -115,7 +115,7 @@ Enforcement of the Code of Conduct will be respectful and not include any harass
 
 Thank you for helping make this a welcoming, friendly community for all.
 
-_[This code of conduct is based on a CoC for [Teaching Tech Together](http://teachtogether.tech/) by Greg Wilson, which in turn is based on that used by PyCon, which in turn is forked from a template written by the Ada Initiative and hosted on the Geek Feminism Wiki.]_
+_[This code of conduct is a simplification of the CoC for [Reproducible Research workshos at AGILE](https://o2r.info/reproducible-agile/), which is based on a CoC for [Teaching Tech Together](http://teachtogether.tech/) by Greg Wilson, which in turn is based on that used by PyCon, which in turn is forked from a template written by the Ada Initiative and hosted on the Geek Feminism Wiki.]_
 
 ---
 
