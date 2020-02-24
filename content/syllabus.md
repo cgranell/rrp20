@@ -42,10 +42,10 @@ In this course you will get an introduction to the main ideas and tools to acqui
 ## Course content
 
 * Session 01: Introduction to reproducible research (4 hr.)
-  * 01_01:
+  * 01_01: Practical arrangements
+  * 01_02: 
 
-
-* Session 02: Preliminary practices (4 hr.)
+* Session 02: Preliminaries (3 hr.)
   * 02_01: Steps in reproducibility
     * input data
     * methods: data preprocessing, methods, computationl environment
@@ -57,11 +57,11 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * Github
     * Open Science Foundation
 
-* Session 03: Practices during the project (3 hr.)  
+* Session 03: Reproducible research practices (3 hr.)  
   * Virtual containers
   * Permanent archivas (DOI)
 
-* Session 04: Reproducible notebook and articles (3 hr)
+* Session 04: Reproducible notebooks (3 hr)
   * Notebooks and Comptiational narratives. Literate programming. Markdow format
   * Notebooks for writing scientific articles
   * Notebooks for presentations
@@ -70,7 +70,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * How to read a resarc apperç
   * How to read a reseach compendium
 
-* Session 06: final project (4 hr)
+* Session 06: Final project (4 hr)
   
 ---
 
@@ -80,11 +80,6 @@ Lectures are available in this repo. You are welcome to view them at your conven
 
 ---
 
-## Typos
-
-* We are prone to a typo or two - please report them and we will try to update the notes accordingly. 
-
----
 
 ## Code of Conduct
 

@@ -1,28 +1,106 @@
-01_01
-========================================================
-author: 
-date: 
-autosize: true
 
-First Slide
-========================================================
+Reproducible Research Practices (RRP'20) - Practical arrangements
+===
+author: Carlos Granell
+date: March 2020
+transition: rotate
 
-For more details on authoring R presentations please visit <https://support.rstudio.com/hc/en-us/articles/200486468>.
+<small>
+[GEOTEC research group](http://geotec.uji.es/)      
+Universitat Jaume I   
+</small>
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
 
-Slide With Code
-========================================================
+Quote
+===
 
-```{r}
-summary(cars)
-```
+American science-fiction author [Robert A. Heinlei](https://en.wikipedia.org/wiki/Robert_A._Heinlein)
 
-Slide With Plot
-========================================================
+<span class="midcenter">“When one teaches, two learn.”</span>
 
-```{r, echo=FALSE}
-plot(cars)
-```
+
+Today
+===
+
+- General information 
+- Practical arrangements
+
+Quick Quiz
+===
+
+- Have you ever used __data__ to make decisions in your life?
+- Have you ever written a __line of code__?
+- Have you ever heard the term __reproduciblity__?
+
+
+Quiz
+===
+
+A group of enthusiasts of open science and reproducibility research practices in GIScience (https://o2r.info/reproducible-agile/) are exploring teaching strategies to increase the exposure to and understanding of __Reproducible Research__ by doctoral- and master-level students in the area of GIScience.
+
+- Fill in [quiz](https://forms.gle/BTmPc5ExhEJNkUtFA)
+- Pick option "Doctoral school (UJI)"
+
+
+Course schedule
+===
+
+6 sessions:
+
+- 24, 26, (31) March 2020
+- 2, 7 and 9 April 2020
+
+Please see __AV__ for last-minute changes
+
+Philosophy
+===
+
+- Emphasis on getting you on reproducibility practices & skills
+- (Lost of) tools and guidelines
+  - General overview
+  - Very little theory, emphasis on practice
+  - (Lots of) ways to go on your own
+- Emphasis on the application and use
+- Close connection to “real world” projects
+
+Format
+===
+
+Things to do:
+
+- __in class__: lecture + hands-on exercises + discussion  
+  - _Your 1st code will be bad, but your 1000th will be great_
+- __after class__: adidtional readings, videos, podcast, articles… 
+  - go beyond the minimun (most recommended!) 
+
+Content 
+===
+
+[See Syllabus](https://github.com/cgranell/rrp20/blob/master/content/syllabus.md)
+- Session 01: Introduction to reproducible research
+- Session 02: Preliminaries
+- Session 03: Reproducible research practices
+- Session 04: Reproducible notebooks
+- Session 05: Reviews
+- Session 06: Final project
+
+Logistics
+===
+
+Course on __Github__
+- [Main source](https://github.com/cgranell/rrp20)
+- slide decks (markdown, html pdf) + exercises + data + code
+- Links to additional readings
+
+Course on __AV__
+- Pointers to github
+- [f2f edition](https://aulavirtual.uji.es/course/view.php?id=65970)
+- [Online edition](https://aulavirtual.uji.es/course/view.php?id=65980)
+
+Take it easy
+===
+
+If you’re stuck (in reproducibility), all you really need is one of the following:
+- A glass of water
+- A 10-minute walk outside
+- A good night of sleep

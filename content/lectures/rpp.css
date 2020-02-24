@@ -1,0 +1,13 @@
+/* https://github.com/ajlyons/rpres_css */
+
+/* Get Rid of Auto-hyphenation in Slide Titles */ 
+.reveal h1, .reveal h2, .reveal h3 {
+  word-wrap: normal;
+  -moz-hyphens: none;
+}
+
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 40%;
+}
