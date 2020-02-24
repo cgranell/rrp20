@@ -26,6 +26,13 @@ https://github.com/rdpeng/courses
   * Low reproducibility, difficult re-ure
   * difficult follow-up computational analysis, data-driven searches
   * no deeper exploration/inspection 
+  
+## Tools
+
+* [RStudio Cloud](https://rstudio.cloud/)
+* [RPubs](https://rpubs.com/)
+* [Shinyapps.io](https://www.shinyapps.io/)
+* Makefile
 
 ## Other inputs
 
