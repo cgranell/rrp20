@@ -12,6 +12,21 @@ https://github.com/rdpeng/courses
 https://osf.io/j97zp/
 
 
+https://paperswithcode.com/, The mission of Papers With Code is to create a free and open resource with Machine Learning papers, code and evaluation tables.
+https://paperswithcode.com/sota
+
+
+http://rescience.org/x. 
+ReScience X is an open access, peer-reviewed, academic journal for the dissemination of replicated experimental research
+
+http://rescience.github.io/
+ReScience C is an open-access peer-reviewed journal that targets computational research and encourages the explicit replication of already published research
+
+https://codecheck.org.uk/, aprocess for independent reproduction of computations underlying research
+
+https://rpubs.com/hrbrmstr
+
+
 ## Session 1
 
 
