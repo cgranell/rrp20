@@ -16,13 +16,21 @@ https://paperswithcode.com/, The mission of Papers With Code is to create a free
 https://paperswithcode.com/sota
 
 
-http://rescience.org/x. 
-ReScience X is an open access, peer-reviewed, academic journal for the dissemination of replicated experimental research
+Code Journals/initiatives
+  * http://rescience.org/x. ReScience X is an open access, peer-reviewed, academic journal for the dissemination of replicated experimental research
+  * http://rescience.github.io/. ReScience C is an open-access peer-reviewed journal that targets computational research and encourages the explicit replication of already published research
+  * https://codecheck.org.uk/, a process for independent reproduction of computations underlying research
 
-http://rescience.github.io/
-ReScience C is an open-access peer-reviewed journal that targets computational research and encourages the explicit replication of already published research
+Data journals,
+  * https://www.journals.elsevier.com/data-in-brief
+  * https://www.nature.com/sdata/
+  * https://academic.oup.com/gigascience
+  * https://www.mdpi.com/journal/data
 
-https://codecheck.org.uk/, aprocess for independent reproduction of computations underlying research
+Encontrat ejempls de reproducir articulos:
+- Ejemplos imposibles
+- Ejemplos medio posibles
+- Ejemplos fáciles
 
 https://rpubs.com/hrbrmstr
 

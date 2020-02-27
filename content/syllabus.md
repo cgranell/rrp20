@@ -65,11 +65,13 @@ In this course you will get an introduction to the main ideas and tools to acqui
 * Session 04: Reproducible notebooks (3 hr)
   * Notebooks and Comptiational narratives. Literate programming. Markdow format
   * Notebooks for writing scientific articles
+  * Notebooks for flexdashboards
   * Notebooks for presentations
 
 * Session 05: Reviews (3 hr)
-  * How to read a resarc apperç
-  * How to read a reseach compendium
+  * Types of reviews, cumulative reviews
+  * How to read a research article
+  * How to read a research compendium
 
 * Session 06: Final project (4 hr)
   
