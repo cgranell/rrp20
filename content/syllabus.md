@@ -1,15 +1,14 @@
 ---
-layout: default
-title: "syllabus"
+title: "Syllabus"
 author: "Carlos Granell"
-date: "19/2/2020"
-update: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 keywords:
-    - reproducible research
-    - open science
-    - reproducibility
-    - skill building
-
+- reproducible research
+- open science
+- reproducibility
+- skill building
+layout: default
+created: 19/2/2020
 ---
 
 
@@ -74,6 +73,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * Github - 
     * R 
     * Rstudio 
+    * [RStudio Cloud](https://rstudio.cloud/)
 
 * Session 03: Reproducible research practices I (3 hr.)
   * 03_01: Write code
@@ -100,7 +100,6 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * Docker
     
 * Session 04: Reproducible research practices II (3 hr.)
-    
   * 04_01: Write scientific article
     * Notebooks for writing scientific articles
   * 04_02: Create additional resources
@@ -109,28 +108,31 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * 04_03: Examples & Discussion
   * 04_04: Tools & readings
 
-* Session 05: Publication and archiving (3 hr)
+* Session 05: Publication and archiving (3 hr.)
   * 05_01: Guidelines to write reproducible papers
     * AGILE guidelines
     * General rules/papers from literature
     * Cite code and data
-  * 05_02: Permanent archive 
-    * Archive data and code via WebHooks GitHub-Zenodo
-    and get a DOI
-    * Get a DOI
-  * 05_03: Prepare README files for publication 
-    * Add DOI, link to remote containers, etc. 
+  * 05_02: Publication of reproducible reports
+    * Use of RPubs
+    * Use of Shinyapps 
+  * 05_03: Permanent archiving 
+    * Archive data and code via WebHooks GitHub-Zenodo and get a DOI
+    * Udpate README files with DOIs, links to remote containers, etc.
   * 05_04: Examples & Discussion  
-  * 05_05 Tools & readings
+  * 05_05: Tools & readings
     * Data repositories: Zenodo, r3registry
-    * Open Science Foundation
+    * [Open Science Foundation](https://osf.io/)
+    * [RPubs](https://rpubs.com/)
+    * [Shinyapps.io](https://www.shinyapps.io/)
   
-* Session 06: How to reproduce & final project  (4 hr)
+* Session 06: How to reproduce & final project  (4 hr.)
   * 06_01: How to read a research article
   * 06_02: How to read a research compendium
   * 06_03: Ideas for projects
     * types of reviews, cumulative reviews. R data package example
-    * How to reproduce 
+    * How to reproduce other's works
+  * 06_04: Summary and discussion
 
 ---
 
