@@ -12,15 +12,13 @@ https://github.com/rdpeng/courses
 https://osf.io/j97zp/
 
 
-https://paperswithcode.com/, The mission of Papers With Code is to create a free and open resource with Machine Learning papers, code and evaluation tables.
-https://paperswithcode.com/sota
-
-
 Code Journals/initiatives
   * http://rescience.org/x. ReScience X is an open access, peer-reviewed, academic journal for the dissemination of replicated experimental research
   * http://rescience.github.io/. ReScience C is an open-access peer-reviewed journal that targets computational research and encourages the explicit replication of already published research
   * https://codecheck.org.uk/, a process for independent reproduction of computations underlying research
-
+  * https://paperswithcode.com/, the mission is to create a free and open resource with Machine Learning papers, code and evaluation tables. See https://paperswithcode.com/sota
+  
+  
 Data journals,
   * https://www.journals.elsevier.com/data-in-brief
   * https://www.nature.com/sdata/
@@ -33,6 +31,18 @@ Encontrat ejempls de reproducir articulos:
 - Ejemplos fáciles
 
 https://rpubs.com/hrbrmstr
+
+## Tips
+ 
+Use of [HERE](https://github.com/krlmlr/here) package, as described [here](https://github.com/jennybc/here_here).
+ 
+```
+ library(here)
+ here()
+ here("data")
+```
+
+
 
 
 ## Session 1

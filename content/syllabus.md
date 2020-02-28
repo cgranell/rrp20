@@ -3,12 +3,11 @@ layout: default
 title: "syllabus"
 author: "Carlos Granell"
 date: "19/2/2020"
+update: "`r format(Sys.time(), '%d %B, %Y')`"
 keywords:
     - reproducible research
     - open science
     - reproducibility
-    - software carpentry
-    - data carpentry
     - skill building
 
 ---
@@ -43,38 +42,96 @@ In this course you will get an introduction to the main ideas and tools to acqui
 
 * Session 01: Introduction to reproducible research (4 hr.)
   * 01_01: Practical arrangements
-  * 01_02: Historical notes
+  * 01_02: Historical notes on reproduction & concept
   * 01_03: Reproducible Research AGILE (our story)
+  * 01_04: Reproducibility today: journals, grant proposals, reputation, etc.
+  * 01_05: PhD thesis meets reproducibility
+  * 01_06: A simple reproducible project workflow 
+    * a guide to next session
+    * Rationale: Follow steps in BES + your own
+      * Follow steps in BES. Add your own when necesary. Custom per discipline
+      * Introduce tools as necessary
+      * Anotate steps with related literature and relevant papers, guides and resources
+      * Introduce exampels as neceusary. Alle partice to explore tools, services. 
+      * Ask student how they can use such tools for their reseach. How can they adapt such steps for their research
 
-* Session 02: Preliminaries (3 hr.)
-  * 02_01: Steps in reproducibility
-    * input data
-    * methods: data preprocessing, methods, computationl environment
-    * results
-  * 02_02: Introduction to basic tools 
+* Session 02: Preliminaries (3 hr.).
+  * 02_01: Before you start 
+    * folder organisation - see rr-template repo
+    * naming convention
+    * version control software: git
+    * set up online version control account: github
+  * 02_02: First steps
+    * Create folder structure. Clone & rename (TODO)
+      * create (local) version control repository for the project
+      * connect the local version control repository to an online verion control repository 
+    * add/update README file
+    * add/update notes/notes file
+    * choose/add LICENCE
+  * 02_03: Examples & discussion
+  * 02_04: Tools & readings
+    * Git 
+    * Github - 
     * R 
     * Rstudio 
-    * Git 
-    * Github
+
+* Session 03: Reproducible research practices I (3 hr.)
+  * 03_01: Write code
+    * keep scripts in order (01_download, 02_....)
+    * never eve touch input/raw data
+    * comment the code, issue track, etc.
+    * testing and CI via WebHooks (GitHub-CI)
+    * commit to version control
+    * Syncr with your remote control repository 
+    * ...and repeat again, and again
+  * 03_02: Write reproducible notebooks/reports
+    * Literate programming 
+    * Markdown format
+    * Notebooks and Computational narratives
+  * 03_03: Virtual containers
+    * Issue: dependences, version, OS
+    * Remote containers with Binder
+    * Local containers with Docker
+  * 03_04: Examples & Discussion
+  * 03_05: Tools & readings
+    * Markdown
+    * Make
+    * Binder
+    * Docker
+    
+* Session 04: Reproducible research practices II (3 hr.)
+    
+  * 04_01: Write scientific article
+    * Notebooks for writing scientific articles
+  * 04_02: Create additional resources
+    * Notebooks for flexdashboards
+    * Notebooks for presentations
+  * 04_03: Examples & Discussion
+  * 04_04: Tools & readings
+
+* Session 05: Publication and archiving (3 hr)
+  * 05_01: Guidelines to write reproducible papers
+    * AGILE guidelines
+    * General rules/papers from literature
+    * Cite code and data
+  * 05_02: Permanent archive 
+    * Archive data and code via WebHooks GitHub-Zenodo
+    and get a DOI
+    * Get a DOI
+  * 05_03: Prepare README files for publication 
+    * Add DOI, link to remote containers, etc. 
+  * 05_04: Examples & Discussion  
+  * 05_05 Tools & readings
+    * Data repositories: Zenodo, r3registry
     * Open Science Foundation
-
-* Session 03: Reproducible research practices (3 hr.)  
-  * Virtual containers
-  * Permanent archivas (DOI)
-
-* Session 04: Reproducible notebooks (3 hr)
-  * Notebooks and Comptiational narratives. Literate programming. Markdow format
-  * Notebooks for writing scientific articles
-  * Notebooks for flexdashboards
-  * Notebooks for presentations
-
-* Session 05: Reviews (3 hr)
-  * Types of reviews, cumulative reviews
-  * How to read a research article
-  * How to read a research compendium
-
-* Session 06: Final project (4 hr)
   
+* Session 06: How to reproduce & final project  (4 hr)
+  * 06_01: How to read a research article
+  * 06_02: How to read a research compendium
+  * 06_03: Ideas for projects
+    * types of reviews, cumulative reviews. R data package example
+    * How to reproduce 
+
 ---
 
 ## Lecture Materials
