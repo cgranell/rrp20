@@ -39,25 +39,26 @@ In this course you will get an introduction to the main ideas and tools to acqui
 
 ## Course content
 
-* Session 01: Introduction to reproducible research (4 hr.)
+* Session 01: Introduction to reproducibility (4 hr.)
   * 01_01: Practical arrangements
   * 01_02: Historical notes on reproduction & concept
   * 01_03: Reproducible Research AGILE (our story)
   * 01_04: Reproducibility today: journals, grant proposals, reputation, etc.
   * 01_05: PhD thesis meets reproducibility
+    - see http://phdcomics.com/comics.php?f=1689
   * 01_06: A simple reproducible project workflow 
     * a guide to next session
     * Rationale: Follow steps in BES + your own
       * Follow steps in BES. Add your own when necesary. Custom per discipline
       * Introduce tools as necessary
       * Anotate steps with related literature and relevant papers, guides and resources
-      * Introduce exampels as neceusary. Alle partice to explore tools, services. 
+      * Introduce examples as necessary. Allow participants to explore tools, services. 
       * Ask student how they can use such tools for their reseach. How can they adapt such steps for their research
 
 * Session 02: Preliminaries (3 hr.).
   * 02_01: Before you start 
     * folder organisation - see rr-template repo
-    * naming convention
+    * naming convention - see [naming things by Jenny Bryan](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf), [Phd comic](http://phdcomics.com/comics/archive.php?comicid=1531)
     * version control software: git
     * set up online version control account: github
   * 02_02: First steps
@@ -108,7 +109,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * 04_03: Examples & Discussion
   * 04_04: Tools & readings
 
-* Session 05: Publication and archiving (3 hr.)
+* Session 05: Publication and archive (3 hr.)
   * 05_01: Guidelines to write reproducible papers
     * AGILE guidelines
     * General rules/papers from literature
@@ -126,7 +127,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * [RPubs](https://rpubs.com/)
     * [Shinyapps.io](https://www.shinyapps.io/)
   
-* Session 06: How to reproduce & final project  (4 hr.)
+* Session 06: How to reproduce other's work & final project (4 hr.)
   * 06_01: How to read a research article
   * 06_02: How to read a research compendium
   * 06_03: Ideas for projects

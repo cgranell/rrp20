@@ -36,14 +36,6 @@ https://rpubs.com/hrbrmstr
  
 Use of [HERE](https://github.com/krlmlr/here) package, as described [here](https://github.com/jennybc/here_here).
  
-```
- library(here)
- here()
- here("data")
-```
-
-
-
 
 ## Session 1
 
