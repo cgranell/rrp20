@@ -87,7 +87,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * ...and repeat again, and again
   * 03_02: Write reproducible notebooks/reports
     * Literate programming 
-    * Markdown format
+    * Markdown format - [see AirBnb example](https://bookdown.org/yihui/rmarkdown/basics-examples.html#airbnbs-knowledge-repository)  
     * Notebooks and Computational narratives
   * 03_03: Virtual containers
     * Issue: dependences, version, OS
