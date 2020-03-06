@@ -1,0 +1,52 @@
+RRP'20 - Reproducibility today
+========================================================
+author: Carlos Granell
+date: March 2020
+transition: rotate
+css: rpp.css
+
+<small>
+[GEOTEC research group](http://geotec.uji.es/)      
+Universitat Jaume I
+</small>
+
+Quote
+===
+type: sub-section
+
+
+Research is a complex ecosystem
+===
+
+C. Granell, D. Nüst, F. Ostermann, R. Sileryte. Reproducible Research is like riding a bike. Open Source Geospatial Research & Education Symposium (OGRS 2018). PeerJ Preprints 6:e27216v1. Lugano, Switzerland, Oct 2018. doi:10.7287/peerj.preprints.27216v1
+
+NAP
+===
+
+"Reproducibility and Replicability in Science", National Academies of Sciences, Engineering, and Medicine. (May 2019). 10.17226/25303 // News post
+The National Academies Press, Washington, DC
+
+***
+![](figs/nap.jpg)
+
+
+Code Journals/initiatives
+===
+
+- http://rescience.org/x. ReScience X is an open access, peer-reviewed, academic journal for the dissemination of replicated experimental research.
+
+- http://rescience.github.io/. ReScience C is an open-access peer-reviewed journal that targets computational research and encourages the explicit replication of already published research
+
+- https://codecheck.org.uk/, a process for independent reproduction of computations underlying research
+
+- https://paperswithcode.com/, the mission is to create a free and open resource with Machine Learning papers, code and evaluation tables. See https://paperswithcode.com/sota
+  
+  
+Data journals
+===
+
+- https://www.journals.elsevier.com/data-in-brief
+- https://www.nature.com/sdata/
+- https://academic.oup.com/gigascience
+- https://www.mdpi.com/journal/data
+
