@@ -55,7 +55,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
       * Introduce examples as necessary. Allow participants to explore tools, services. 
       * Ask student how they can use such tools for their reseach. How can they adapt such steps for their research
 
-* Session 02: Preliminaries (3 hr.).
+* Session 02: RRP - Preliminaries (3 hr.).
   * 02_01: Before you start 
     * folder organisation - see rr-template repo
     * naming convention - see [naming things by Jenny Bryan](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf), [Phd comic](http://phdcomics.com/comics/archive.php?comicid=1531)
@@ -76,7 +76,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * Rstudio 
     * [RStudio Cloud](https://rstudio.cloud/)
 
-* Session 03: Reproducible research practices I (3 hr.)
+* Session 03: RRP - Iterative workflow (3 hr.)
   * 03_01: Write code
     * keep scripts in order (01_download, 02_....)
     * never eve touch input/raw data
@@ -100,7 +100,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * Binder
     * Docker
     
-* Session 04: Reproducible research practices II (3 hr.)
+* Session 04: RRP - Dissemination (3 hr.)
   * 04_01: Write scientific article
     * Notebooks for writing scientific articles
   * 04_02: Create additional resources
@@ -109,7 +109,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * 04_03: Examples & Discussion
   * 04_04: Tools & readings
 
-* Session 05: Publication and archive (3 hr.)
+* Session 05: Publication and archiving (3 hr.)
   * 05_01: Guidelines to write reproducible papers
     * AGILE guidelines
     * General rules/papers from literature
