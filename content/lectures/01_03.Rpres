@@ -22,10 +22,9 @@ Community-driven approach to reproducibility ([Granell et al., 2018](https://doi
 
 ![](figs/OGRS2018Fig1.jpg)
 
-US view
+Institucional/policy level
 ===
-
-[Reproducibility and Replicability in Science](https://www.nap.edu/catalog/25303/reproducibility-and-replicability-in-science) (May 2019)
+US view (May 2019): [Reproducibility and Replicability in Science](https://www.nap.edu/catalog/25303/reproducibility-and-replicability-in-science) (May 2019)
 
 - key point
 - key point
@@ -35,23 +34,64 @@ US view
 ![](figs/nap.jpg)
 
 
-Code Journals/initiatives
+Publisher level  
 ===
 
+Software/code Journals:
 - http://rescience.org/x. ReScience X is an open access, peer-reviewed, academic journal for the dissemination of replicated experimental research.
 
 - http://rescience.github.io/. ReScience C is an open-access peer-reviewed journal that targets computational research and encourages the explicit replication of already published research
 
-- https://codecheck.org.uk/, a process for independent reproduction of computations underlying research
-
-- https://paperswithcode.com/, the mission is to create a free and open resource with Machine Learning papers, code and evaluation tables. See https://paperswithcode.com/sota
+- JORS
   
-  
-Data journals
+Publisher level
 ===
 
+Data journal:
 - https://www.journals.elsevier.com/data-in-brief
 - https://www.nature.com/sdata/
 - https://academic.oup.com/gigascience
 - https://www.mdpi.com/journal/data
+
+
+Community level 
+===
+
+Initiatives: 
+
+- https://codecheck.org.uk/, a process for independent reproduction of computations underlying research
+
+- https://paperswithcode.com/, the mission is to create a free and open resource with Machine Learning papers, code and evaluation tables. See https://paperswithcode.com/sota
+
+Community level 
+===
+  
+Conferences:
+- AGILE
+-
+
+Associations:
+-
+-
+
+Research Group level
+===
+
+https://lorenabarba.com/
+
+
+Individual level
+===
+
+This course is about this!
+
+General recommendations:
+- 10 Rules for python 
+- 
+
+Specific recommendations:
+- AGILE Guidelines (GISsciencee)
+- BES (Ecology)
+
+
 
