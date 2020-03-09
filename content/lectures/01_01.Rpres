@@ -56,7 +56,7 @@ Reproducibility in Science
   - __openness__,
   - __transparency__,
   - __reproduction__ and   
-  - __cumulative__ research practices & knowledge
+  - __cumulative evidence__ (reviews)
 
 Reproducibility in Science
 ===
@@ -194,14 +194,6 @@ Some argue there is not a such reproducibility crisis.
 > The new “science is in crisis” narrative is not only empirically unsupported, but also quite obviously counterproductive. Instead of inspiring younger generations to do more and better science, it might foster in them cynicism and indifference. Instead of inviting greater respect for and investment in research, it risks discrediting the value of evidence and feeding antiscientific agendas.
 
 
-The concept of reproduction 
-===
-
-Fundamental objectives of scientific research:
-- Discover laws, axioms, rules, etc. and describe them and under which condition they apply
-- Conduct case studies to prove a general principle (“proof-of-concept”)
-- Transfer/publish results to prove validity, veracity, trust in findings
-
 
 The concept of reproduction 
 ===
@@ -213,7 +205,21 @@ type: prompt
 The concept of reproduction 
 ===
 
-<span class="center">Some terms to know and papers to read...</span>
+Fundamental objectives of scientific research:
+- Discover laws, axioms, rules, etc. and describe them and under which condition they apply
+- Conduct case studies to prove a general principle (“proof-of-concept”)
+- Transfer/publish results to prove validity, veracity, trust in findings
+
+The concept of reproduction 
+===
+
+> One of the pathways by which scientists confirm the validity of a new
+finding or discovery is by repeating the research that produced it.
+
+> Observed inconsistency may be an important precursor to new discovery while 
+others fear it may be a symptom of a lack of rigor in science
+
+We define _reproducibility_ to mean __computational reproducibility__
 
 
 The concept of reproduction 
@@ -255,12 +261,27 @@ The concept of reproduction
 ![](figs/spectrumreproducibility.jpg)
 
 
+The concept of (pre-)reproduction 
+===
+
+- "Science should be ‘show me’, not ‘trust me’; it should be ‘help me if you can’, not ‘catch me if you can’. 
+- "If I publish an advertisement for my work (that is, a paper long on results but short on methods) and it’s wrong, that makes me untrustworthy. 
+- "If I say: ‘here’s my work’ and it’s wrong, I might have erred, but at least I am honest". 
+
+***
+
+[Stark, 2018](https://doi.org/10.1038/d41586-018-05256-0): _preproducibility_
+
+![](figs/preproducibility.png)
+
+
+
 Summary
 ===
 
 Reproducibility is the easiest of these problems to define and assess. 
 
-Assessing reproducibility involves:
+Computational reproducibility involves:
 - checking the published manuscript, 
 - looking for published data and code, then 
 - comparing the results of that data and code to the published results. 
@@ -269,5 +290,21 @@ Assessing reproducibility involves:
 > otherwise, the study is not.
 
 
+Summary 
+===
 
-  
+Reproducibility involves the _orignal_ data and code.
+
+Replicability involves _new_ data collection to test for consistency with previous results of a smiliar study.
+
+> Even when paper is computationally reproducible, it may fail to be replicated
+
+Discussion
+===
+
+Write a list of obstacles for reproducibility that potentially apply to your discipline:
+- Complex instrumentation: high-performance computation facilities, etc.
+- Nonpublic information: patient records, human subject data, etc.
+- Complex data gathering: multiple sensors, models, etc
+
+<!--- Linked to recommendations of NAP report on Reproducibility and Replicability in Science-->
