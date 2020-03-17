@@ -102,7 +102,7 @@ their research
     * Binder
     * Docker
     
-* Session 04: RRP - Dissemination (3 hr.)
+* Session 04: RRP - Writing and dissemination (3 hr.)
   * 04_01: Write scientific article
     * Notebooks for writing scientific articles
   * 04_02: Create additional resources
@@ -111,7 +111,7 @@ their research
   * 04_03: Examples & Discussion
   * 04_04: Tools & readings
 
-* Session 05: Publication and archiving (3 hr.)
+* Session 05: RRP - Publication and archiving (3 hr.)
   * 05_01: Guidelines to write reproducible papers
     * AGILE guidelines
     * General rules/papers from literature
