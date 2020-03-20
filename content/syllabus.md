@@ -40,13 +40,11 @@ In this course you will get an introduction to the main ideas and tools to acqui
 ## Course content
 
 * Session 01: Introduction to reproducibility (4 hr.)
-  * 01_00: Practical arrangements
+  * 00_01: Practical arrangements
   * 01_01: Historical notes on reproduction & concept
   * 01_02: Reproducible Research AGILE (our story)
-  * 01_03: Reproducibility today: journals, grant proposals, reputation, etc.
+  * 01_03: Reproducibility today
   * 01_04: PhD thesis meets reproducibility
-    - see http://phdcomics.com/comics.php?f=1689
-their research
 
 * Session 02: RRP - Preliminaries (3 hr.).
   * 02_01: A simple reproducible project workflow 

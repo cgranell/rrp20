@@ -12,19 +12,6 @@ https://github.com/rdpeng/courses
 https://osf.io/j97zp/
 
 
-Code Journals/initiatives
-  * http://rescience.org/x. ReScience X is an open access, peer-reviewed, academic journal for the dissemination of replicated experimental research
-  * http://rescience.github.io/. ReScience C is an open-access peer-reviewed journal that targets computational research and encourages the explicit replication of already published research
-  * https://codecheck.org.uk/, a process for independent reproduction of computations underlying research
-  * https://paperswithcode.com/, the mission is to create a free and open resource with Machine Learning papers, code and evaluation tables. See https://paperswithcode.com/sota
-  
-  
-Data journals,
-  * https://www.journals.elsevier.com/data-in-brief
-  * https://www.nature.com/sdata/
-  * https://academic.oup.com/gigascience
-  * https://www.mdpi.com/journal/data
-
 Encontrat ejempls de reproducir articulos:
 - Ejemplos imposibles
 - Ejemplos medio posibles
@@ -58,12 +45,18 @@ Use of [HERE](https://github.com/krlmlr/here) package, as described [here](https
 economía“Analyzing Financial and Economic Data with R"
 https://www.msperlin.com/blog/post/2019-11-25-feedback-toc-afedr/ 
 https://www.msperlin.com/pafdR/
+
 * PodcastWorking scientist podcast: How technology can help solve science's reproducibility crisis
 https://www.nature.com/articles/d41586-019-01333-0
+
 * [granolarr: a reproducible resource for teaching geographic data science in R](https://sdesabbata.github.io/granolarr/)
+
 * [This AI researcher is trying to ward off a reproducibility crisis](https://www.nature.com/articles/d41586-019-03895-5)
+
 * [Reproducible big data science: A case study in continuous FAIRness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213013)
+
 * [Science in hand: how art and craft can boost reproducibility](https://www.nature.com/articles/d41586-018-07676-4)
+
 * [Impact of Social Sciences – To save the research literature, let’s make literature reviews reproducible](https://blogs.lse.ac.uk/impactofsocialsciences/2018/06/19/to-save-the-research-literature-lets-make-literature-reviews-reproducible/)
 
 
