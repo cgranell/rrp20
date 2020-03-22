@@ -16,5 +16,6 @@ ecdc_url <- paste0("https://www.ecdc.europa.eu/sites/default/files/documents/", 
 ecdc_filepath <- here("content", "code", "covid-19", "data-raw", "covid19-ecdc.xlsx")
   
 #download the dataset from the website to a local file
-download.file(url, destfile = ecdc_filepath, mode= "a")
+options('download.file.method'='curl')
+download.file(ecdc_url, destfile = ecdc_filepath, method= "auto", mode = "wb")
 

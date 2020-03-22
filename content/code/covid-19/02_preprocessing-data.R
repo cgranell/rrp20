@@ -2,6 +2,7 @@
 
 library(here)
 library(tidyverse)
+library(readxl)
 
 file_path <- here("content", "code", "covid-19", "data-raw", "covid19-ecdc.xlsx")
 
