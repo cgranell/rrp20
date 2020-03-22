@@ -1,10 +1,151 @@
-RRP'20 - Reproducible Research AGILE
-========================================================
+RRP'20 - Reproducible Research @ AGILE
+===
 author: Carlos Granell
 date: March 2020
 transition: rotate
 css: rpp.css
 
+
+Who we are
+===
+
+![](figs/AGILE01.png)
+
 Our history
-========================================================
+===
+
+We're a group of enthusiasts on __Open Science__ and __Reproducibility Research Practices__ (RRP) in GIScience
+
+GIScience = Geographic Information Science
+
+Our web site: [Reproducible Research @ AGILE](https://o2r.info/reproducible-agile)
+* List of activities done since 2017
+* Access to resources created
+
+[Granell et al., 2020](https://www.revistasipgh.org/index.php/rcar) describes our past activities and main achievements
+
+Timeline: 2017
+===
+
+[1st Workshop](https://o2r.info/reproducible-agile/2017) at AGILE 2017 conference (Wageningen)
+* We met and agreed on next actions
+  * Paper on level of reproducibility of AGILE papers?
+
+***
+![](figs/AGILE02.png)
+
+Timeline: 2018
+===
+
+[Nüst et al. (2018)](https://doi.org/10.7717/peerj.5072): _Reproducible research and GIScience: an evaluation using AGILE conference papers_
+* Define reproducibility criteria
+* Analise 32 AGILE papers based on such criteria
+* Assessments with authors
+* Recommendations for GIS conferences
+
+***
+
+![](figs/AGILE03.png)
+
+Nüst et al. (2018): Reproducibility criteria
+===
+
+![](figs/AGILE04.png)
+
+
+Nüst et al. (2018): Analysis
+===
+
+Average reproducibility level: between 0 and 1 (poor)
+
+![](figs/AGILE05.png)
+
+
+Nüst et al. (2018): Survey authors
+===
+
+Main feedback from authors on why reproducibility was not increased:
+* Legal restrictions
+* Lack of time
+* Lack of tools
+* Lack of knowledge
+* Lack of incentives
+
+
+Timeline: 2018
+===
+[2nd Workshop](https://o2r.info/reproducible-agile/2018/) at AGILE 2018 conference (Lund)
+* Presented results of Nüst et al. (2018)
+* Hands-on exercise: reproduce that paper!
+* Discussion:
+  * Yeah, reproduction is important, but need for __training and guidelines__ 
+    
+***
+![](figs/AGILE06.png)
+
+
+Timeline: 2018
+===
+
+[Granell et al. (2018)](https://doi.org/10.7287/peerj.preprints.27216v1): _Reproducible Research is like riding a bike_
+* Community-driven approach to reproducibility 
+* More on next slide deck
+
+***
+    
+![](figs/AGILE07.png)
+
+
+Timeline: 2019
+===
+
+[AGILE Initiative](https://o2r.info/reproducible-agile/initiative/) to develop authors guidelines for AGILE conference submissions to improve reproducibility.
+* Recruited 4 experts & met 2 days in Delft (Apr 2018) to discuss and write the guidelines
+* [Web site with resources](https://osf.io/phmce/)
+
+***
+![](figs/AGILE08.jpg)
+
+
+AGILE Reproducible Paper Guidelines
+===
+
+[Nüst et al. (2019)](https://doi.org/10.17605/OSF.IO/CB7Z8): _AGILE Reproducible Paper Guidelines_
+* Short and concise (6 pages)
+* Pre-submission reproducibility chekclist
+* From _minimum_ to _ideal_ reproduction level
+* Translations: 
+  * Spanish: [Granell (2019)](https://doi.org/10.17605/OSF.IO/MF9BE)
+  * German : forthcoming
+
+***
+![](figs/AGILE09.png)
+
+
+Timeline: 2019
+===
+[3rd Workshop](https://o2r.info/reproducible-agile/2019/) at AGILE 2019 conference (Limassol)
+* Presented Guidelines
+* Hands-on exercise: basic and avance!
+* Guidelines adopted in AGILE 2020 conference 
+
+***
+![](figs/AGILE10.png)
+
+
+Timeline: 2020
+===
+
+Paper out with our history: [Granell et al. (2020)](https://www.revistasipgh.org/index.php/rcar)
+
+AGILE 2020 & workshop _cancelled_
+* 50% of full paper submissions provided reproducibility section anf resources (data, code)
+
+Ongoing activities:
+* analysis of papers published in past GIScience conferences 
+* more education resources (like this course!)
+* engage more people in the initiative
+* formalise collaboration through project proposals
+
+
 
