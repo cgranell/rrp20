@@ -1,14 +1,13 @@
 ---
 title: "Syllabus"
 author: "Carlos Granell"
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+date: "March 2020"
+layout: default
 keywords:
 - reproducible research
 - open science
 - reproducibility
 - skill building
-layout: default
-created: 19/2/2020
 ---
 
 
@@ -40,31 +39,23 @@ In this course you will get an introduction to the main ideas and tools to acqui
 ## Course content
 
 * Session 01: Introduction to reproducibility (4 hr.)
-  * 00_01: Practical arrangements
-  * 01_01: Historical notes on reproduction & concept
-  * 01_02: Reproducible Research AGILE (our story)
-  * 01_03: Reproducibility today
-  * 01_04: PhD thesis meets reproducibility
+  * [00_01](http://www3.uji.es/~canut/rrp20/00_01.html): Practical arrangements
+  * [01_01](http://www3.uji.es/~canut/rrp20/01_01.html): Historical notes on reproduction & concept
+  * [01_02](http://www3.uji.es/~canut/rrp20/01_02.html): Reproducible Research AGILE (our story)
+  * [01_03](http://www3.uji.es/~canut/rrp20/01_03.html): Reproducibility today
+  * [01_04](http://www3.uji.es/~canut/rrp20/01_04.html): PhD thesis meets reproducibility
 
 * Session 02: RRP - Preliminaries (3 hr.).
   * 02_01: A simple reproducible project workflow 
     * a guide to next session
     * Rationale: Follow steps in BES + your own
-      * Follow steps in BES. Add your own when necesary. Custom per discipline
-      * Introduce tools as necessary
-      * Anotate steps with related literature and relevant papers, guides and resources
-      * Introduce examples as necessary. Allow participants to explore tools, services. 
-      * Ask student how they can use such tools for their reseach. How can they adapt such steps for 
-
   * 02_02: Before you start 
-    * folder organisation - see rr-template repo
-    * naming convention - see [naming things by Jenny Bryan](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf), [Phd comic](http://phdcomics.com/comics/archive.php?comicid=1531)
+    * folder organisation
+    * naming convention
     * version control software: git
     * set up online version control account: github
   * 02_03: First steps
-    * Create folder structure. Clone & rename (TODO)
-      * create (local) version control repository for the project
-      * connect the local version control repository to an online verion control repository 
+    * Create folder structure
     * add/update README file
     * add/update notes/notes file
     * choose/add LICENCE
@@ -73,21 +64,13 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * Git 
     * Github - 
     * R 
-    * Rstudio 
     * [RStudio Cloud](https://rstudio.cloud/)
 
 * Session 03: RRP - Iterative workflow (3 hr.)
   * 03_01: Write code
-    * keep scripts in order (01_download, 02_....)
-    * never eve touch input/raw data
-    * comment the code, issue track, etc.
-    * testing and CI via WebHooks (GitHub-CI)
-    * commit to version control
-    * Syncr with your remote control repository 
-    * ...and repeat again, and again
   * 03_02: Write reproducible notebooks/reports
     * Literate programming 
-    * Markdown format - [see AirBnb example](https://bookdown.org/yihui/rmarkdown/basics-examples.html#airbnbs-knowledge-repository)  
+    * Markdown format
     * Notebooks and Computational narratives
   * 03_03: Virtual containers
     * Issue: dependences, version, OS

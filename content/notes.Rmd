@@ -60,3 +60,92 @@ https://www.nature.com/articles/d41586-019-01333-0
 * [Impact of Social Sciences – To save the research literature, let’s make literature reviews reproducible](https://blogs.lse.ac.uk/impactofsocialsciences/2018/06/19/to-save-the-research-literature-lets-make-literature-reviews-reproducible/)
 
 
+* Session 02: RRP - Preliminaries (3 hr.).
+  * 02_01: A simple reproducible project workflow 
+    * a guide to next session
+    * Rationale: Follow steps in BES + your own
+      * Follow steps in BES. Add your own when necesary. Custom per discipline
+      * Introduce tools as necessary
+      * Anotate steps with related literature and relevant papers, guides and resources
+      * Introduce examples as necessary. Allow participants to explore tools, services. 
+      * Ask student how they can use such tools for their reseach. How can they adapt such steps for 
+
+  * 02_02: Before you start 
+    * folder organisation - see rr-template repo
+    * naming convention - see [naming things by Jenny Bryan](http://www2.stat.duke.edu/~rcs46/lectures_2015/01-markdown-git/slides/naming-slides/naming-slides.pdf), [Phd comic](http://phdcomics.com/comics/archive.php?comicid=1531)
+    * version control software: git
+    * set up online version control account: github
+  * 02_03: First steps
+    * Create folder structure. Clone & rename (TODO)
+      * create (local) version control repository for the project
+      * connect the local version control repository to an online verion control repository 
+    * add/update README file
+    * add/update notes/notes file
+    * choose/add LICENCE
+  * 02_04: Examples & discussion
+  * 02_05: Tools & readings
+    * Git 
+    * Github - 
+    * R 
+    * Rstudio 
+    * [RStudio Cloud](https://rstudio.cloud/)
+
+* Session 03: RRP - Iterative workflow (3 hr.)
+  * 03_01: Write code
+    * keep scripts in order (01_download, 02_....)
+    * never eve touch input/raw data
+    * comment the code, issue track, etc.
+    * testing and CI via WebHooks (GitHub-CI)
+    * commit to version control
+    * Syncr with your remote control repository 
+    * ...and repeat again, and again
+  * 03_02: Write reproducible notebooks/reports
+    * Literate programming 
+    * Markdown format - [see AirBnb example](https://bookdown.org/yihui/rmarkdown/basics-examples.html#airbnbs-knowledge-repository)  
+    * Notebooks and Computational narratives
+  * 03_03: Virtual containers
+    * Issue: dependences, version, OS
+    * Remote containers with Binder
+    * Local containers with Docker
+  * 03_04: Examples & Discussion
+  * 03_05: Tools & readings
+    * Markdown
+    * Make
+    * Binder
+    * Docker
+    
+* Session 04: RRP - Writing and dissemination (3 hr.)
+  * 04_01: Write scientific article
+    * Notebooks for writing scientific articles
+  * 04_02: Create additional resources
+    * Notebooks for flexdashboards
+    * Notebooks for presentations
+  * 04_03: Examples & Discussion
+  * 04_04: Tools & readings
+
+* Session 05: RRP - Publication and archiving (3 hr.)
+  * 05_01: Guidelines to write reproducible papers
+    * AGILE guidelines
+    * General rules/papers from literature
+    * Cite code and data
+  * 05_02: Publication of reproducible reports
+    * Use of RPubs
+    * Use of Shinyapps 
+  * 05_03: Permanent archiving 
+    * Archive data and code via WebHooks GitHub-Zenodo and get a DOI
+    * Udpate README files with DOIs, links to remote containers, etc.
+  * 05_04: Examples & Discussion  
+  * 05_05: Tools & readings
+    * Data repositories: Zenodo, r3registry
+    * [Open Science Foundation](https://osf.io/)
+    * [RPubs](https://rpubs.com/)
+    * [Shinyapps.io](https://www.shinyapps.io/)
+  
+* Session 06: How to reproduce other's work & final project (4 hr.)
+  * 06_01: How to read a research article
+  * 06_02: How to read a research compendium
+  * 06_03: Ideas for projects
+    * types of reviews, cumulative reviews. R data package example
+    * How to reproduce other's works
+  * 06_04: Summary and discussion
+
