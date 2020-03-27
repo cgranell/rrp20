@@ -1,0 +1,79 @@
+
+RRP'20 - A simple reproducible project workflow 
+========================================================
+author: Carlos Granell
+date: March 2020
+transition: rotate
+css: rpp.css
+
+<small>
+[GEOTEC research group](http://geotec.uji.es/)      
+Universitat Jaume I
+</small>
+
+Quote
+===
+type: sub-section
+
+
+RRP - Preliminaries
+===
+
+You learned the concept of __reproduction__ and explored its interpretation in your discipline 
+
+Computational reproducibility is easy to understand:
+- check the published manuscript to reproduce, 
+- download associated data and code, 
+- run the analysis stuff, and 
+- compare the results to the published results. 
+
+
+RRP - Preliminaries
+===
+
+The concept is easy to understand, getting started is more difficult!
+
+Why?
+- "I never tried before" 
+- lack of training
+- lack of get-started tutorials, guidelines 
+- lack of habit
+
+
+RRP - Preliminaries
+===
+
+Warmings before starting:
+
+There is NOT a unique formula to make your work reproducible 
+- Study examples and guides and **adapt** them to your way of working
+
+Do not think in reproduction when the paper is ready to be submitted
+- **Integrate** reproducible practices from the start of your project
+
+
+I got it, but....
+===
+
+How do I start to make my work more reproducible?
+
+What steps or recommendations can I follow? 
+
+> Our goal is to create a research project taking into account reproducible research practices
+
+> Our goal is to turn reproduction into a HABIT 
+
+
+Reproducible project workflow 
+===
+
+
+Inspired by British Ecological Society (BES), [guides to better science](https://www.britishecologicalsociety.org/publications/guides-to/)
+* [Reproducible code](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf)
+
+
+Serve as to otrice toosl as necesdaru 
+
+Serve as to lin ot related other relevant papers, guides and resources
+      
+      

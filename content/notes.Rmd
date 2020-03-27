@@ -55,7 +55,6 @@ https://www.nature.com/articles/d41586-019-01333-0
 
 * [Reproducible big data science: A case study in continuous FAIRness](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0213013)
 
-* [Science in hand: how art and craft can boost reproducibility](https://www.nature.com/articles/d41586-018-07676-4)
 
 * [Impact of Social Sciences – To save the research literature, let’s make literature reviews reproducible](https://blogs.lse.ac.uk/impactofsocialsciences/2018/06/19/to-save-the-research-literature-lets-make-literature-reviews-reproducible/)
 
@@ -148,4 +147,39 @@ https://www.nature.com/articles/d41586-019-01333-0
     * types of reviews, cumulative reviews. R data package example
     * How to reproduce other's works
   * 06_04: Summary and discussion
+
+
+
+
+* Training of scientists in computational research practices has not kept pace
+* scientists who wish to reproduce research may lack the information or training they need to do so
+* When results are produced by complex computational processes using large volumes of data, the methods section of a scientific paper is insufficient to convey the necessary information for others to reproduce the results. Additional information related to data, code, models, and computational analysis is needed for others to computationally reproduce the results.
+
+*  having the reuse of research results as a goal requires the adoption of new research practices during the data analysis process. Such practices need to be tailored to the needs of each given discipline with its particular research environment, culture and idiosyncrasies
+
+
+Box 1 Guiding principles towards reproducibility 
+
+Source: https://www.nature.com/articles/s41567-018-0342-2#Tab1
+
+
+
+tentative paper to be reproduced by me
+==========
+Mobile Phone Indicators and Their Relation to the Socioeconomic Organisation of Cities
+Clémentine Cottineau 1,2,†,*  and Maarten Vanhoof 3,4,†
+ISPRS Int. J. Geo-Inf. 2019, 8(1), 19; 
+https://www.mdpi.com/2220-9964/8/1/19
+
+
+Use case:
+1/ World data + coronavirus. Animated barchart per country over time
+
+2/ Evaluation of the potential incidence of COVID-19 and effectiveness of contention measures in Spain: a data-driven approach
+- https://www.medrxiv.org/content/10.1101/2020.03.01.20029801v2
+- https://zenodo.org/record/3701751#.XnJBA6hKjZs
+- https://observatoriotransporte.mitma.gob.es/estudio-experimental
+- ...email from Simona
+
+
 
