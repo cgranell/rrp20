@@ -16,64 +16,100 @@ Quote
 type: sub-section
 
 
+Nobel laureate and physics professor [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)
+
+<span class="quote">“Science is a way of trying not to fool yourself. The principle is that you must not fool yourself, and you are the easiest person to fool.”</span>
+
 RRP - Preliminaries
 ===
 
 You learned the concept of __reproduction__ and explored its interpretation in your discipline 
 
-Computational reproducibility is easy to understand:
+The idea of computational reproducibility is easy to understand:
 - check the published manuscript to reproduce, 
 - download associated data and code, 
-- run the analysis stuff, and 
+- run the analytical stuff, and 
 - compare the results to the published results. 
 
 
 RRP - Preliminaries
 ===
 
-The concept is easy to understand, getting started is more difficult!
+Ok, I got it. But getting started is difficult!
 
 Why?
-- "I never tried before" 
-- lack of training
-- lack of get-started tutorials, guidelines 
-- lack of habit
-
+- "I have never heard of reproducibility before"
+- "I'm not good at using tools. _You said github?_"
+- "I have never been trained"
+- "I do know where to find tutorials, guidelines..." 
+- "I'm superbusy! I do not have enough time" 
+- "I do theoretical stuff. Reproduction is not for me"
+- ...
 
 RRP - Preliminaries
 ===
 
-Warmings before starting:
-
-There is NOT a unique formula to make your work reproducible 
-- Study examples and guides and **adapt** them to your way of working
-
-Do not think in reproduction when the paper is ready to be submitted
-- **Integrate** reproducible practices from the start of your project
+No matter your excuse, RRP are central to enabling transparent and honest science
+* Reminder: _Don't fool yourself!_
 
 
-I got it, but....
+So, the real questions are:
+- How do I start to make my work more reproducible?
+
+- What steps or recommendations can I follow? 
+
+
+A simple reproducible project workflow
 ===
 
-How do I start to make my work more reproducible?
+Inspired by British Ecological Society (BES), [guides to better science](https://www.britishecologicalsociety.org/publications/guides-to/): [Reproducible code](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf) guide
 
-What steps or recommendations can I follow? 
+It will serve us to:
+- Discuss steps/recommendations
+- Introduce tools as required 
+- Adapt the steps to your realities
+- Links to other papers, guides and resources
 
-> Our goal is to create a research project taking into account reproducible research practices
-
-> Our goal is to turn reproduction into a HABIT 
-
-
-Reproducible project workflow 
+A simple reproducible project workflow
 ===
 
+![](figs/simpleworkflow-bes.png)
+***
 
-Inspired by British Ecological Society (BES), [guides to better science](https://www.britishecologicalsociety.org/publications/guides-to/)
-* [Reproducible code](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf)
+- Top two boxes:
+  - 02_02: Before you start 
+  - 02_03: First steps
+
+- Intermediate workflow
+  - 03: RRP - Iterative workflow
+
+- Bottom box
+  - 04: RRP - Writing and dissemination
+  - 05: RRP - Publication and archiving
+
+Warmings before starting
+===
+
+There is NOT a unique path formula to make your work reproducible 
+- Study examples and guides and **adapt** them to your workflow
+
+Don't think about reproduction when the paper is ready to submit.
+- **Plan early** and **integrate** reproducible practices from the start
+
+Don't get stuck by the lack of skills in automated tools
+- **Add tools increasingly** into your workflow as you get skilled 
 
 
-Serve as to otrice toosl as necesdaru 
+Summary
+===
 
-Serve as to lin ot related other relevant papers, guides and resources
-      
-      
+Goal is to **turn reproduction into a HABIT** 
+
+- First get the habit, then get tool skills
+- Plan early on your project
+
+Goal is to do research in which **RRP are first-class citizen**
+
+- Commonsense; maybe not all projects require reproduction
+- RRP are a dynamic process. Adapt them as your projects change and your skills improve
+- **RRP are for you**, then for others: _your future self will thank you!_ 
