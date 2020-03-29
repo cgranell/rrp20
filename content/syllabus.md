@@ -46,15 +46,9 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * [01_04](http://www3.uji.es/~canut/rrp20/01_04.html): PhD thesis meets reproducibility
 
 * Session 02: RRP - Preliminaries (3 hr.).
-  * 02_01: A simple reproducible project workflow 
-    * a guide to next session
-    * Rationale: Follow steps in BES + your own
-  * 02_02: Before you start 
-    * folder organisation
-    * naming convention
-    * version control software: git
-    * set up online version control account: github
-  * 02_03: First steps
+  * [02_01](http://www3.uji.es/~canut/rrp20/02_01.html): A simple reproducible project workflow 
+  * [02_02](http://www3.uji.es/~canut/rrp20/02_02.html): Before you start 
+  * [02_03](http://www3.uji.es/~canut/rrp20/02_03.html): First steps
     * Create folder structure
     * add/update README file
     * add/update notes/notes file
