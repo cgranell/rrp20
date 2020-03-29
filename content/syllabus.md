@@ -49,17 +49,9 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * [02_01](http://www3.uji.es/~canut/rrp20/02_01.html): A simple reproducible project workflow 
   * [02_02](http://www3.uji.es/~canut/rrp20/02_02.html): Before you start 
   * [02_03](http://www3.uji.es/~canut/rrp20/02_03.html): First steps
-    * Create folder structure
-    * add/update README file
-    * add/update notes/notes file
-    * choose/add LICENCE
-  * 02_04: Examples & discussion
-  * 02_05: Tools & readings
-    * Git 
-    * Github - 
-    * R 
-    * [RStudio Cloud](https://rstudio.cloud/)
-
+  * 02_04: Tools & readings
+  * 02_05: Examples & discussion
+  
 * Session 03: RRP - Iterative workflow (3 hr.)
   * 03_01: Write code
   * 03_02: Write reproducible notebooks/reports
