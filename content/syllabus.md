@@ -2,6 +2,7 @@
 title: "Syllabus"
 author: "Carlos Granell"
 date: "March 2020"
+output: "html_document"
 layout: default
 keywords:
 - reproducible research
