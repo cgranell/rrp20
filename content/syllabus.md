@@ -50,7 +50,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * [02_01](http://www3.uji.es/~canut/rrp20/02_01.html): A simple reproducible project workflow 
   * [02_02](http://www3.uji.es/~canut/rrp20/02_02.html): Before you start 
   * [02_03](http://www3.uji.es/~canut/rrp20/02_03.html): First steps
-  * 02_04: Tools & readings
+  * [02_04](http://www3.uji.es/~canut/rrp20/02_04.html): Tools & readings
   * 02_05: Examples & discussion
   
 * Session 03: RRP - Iterative workflow (3 hr.)
