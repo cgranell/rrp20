@@ -1,4 +1,4 @@
-
+# DATA PREPARATION FOR LIKERT SCALE PLOTS
 
 library(here)
 library(tidyverse)
@@ -20,8 +20,6 @@ likert_levels <- c("I have never heard of this term",
                    "I can explain this term in my own words but I do not use it myself",
                    "I can easily define what exactly this term means and I use it myself")
 
-
-
 survey_ready <- survey_raw %>%
   select(`Open access`, `Computational essays`, `Digital notebooks`, `Data repositories`,`License`) %>%
   # drop_na() %>%
@@ -33,7 +31,7 @@ survey_ready <- survey_raw %>%
   as.data.frame()
 
 
-file_path <- here::here("content", "code", "survey", "data", "my-survey.csv")
+file_path <- here::here("content", "code", "survey", "data", "subset-survey.csv")
 write_csv(x = survey_ready, file_path)
 
 
