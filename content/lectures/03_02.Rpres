@@ -1,0 +1,53 @@
+
+RRP'20 - Iterative workflow 
+========================================================
+author: Carlos Granell
+date: March 2020
+transition: rotate
+css: rpp.css
+
+<small>
+[GEOTEC research group](http://geotec.uji.es/)      
+Universitat Jaume I
+</small>
+
+
+A simple reproducible project workflow
+===
+
+![](figs/simpleworkflow-bes.png)
+***
+
+- Intermediate workflow
+  - 03: RRP - Iterative workflow
+
+
+Practices
+===
+
+#1 Document your project using Markdown
+
+#2 Leverage literate programing  
+
+#3 Write comptutational narratives/notebooks 
+
+
+#1 Document your project using Markdown
+===
+
+- Add README file (_always!_)
+- Add README files in subfolders (_if required_)
+  - eg: `data-raw` or `data`
+- Write down the project rationale adn decissin in folder `notes`
+
+#2 Leverage literate programing  
+===
+
+
+Markdown 
+===
+
+
+#3 Write comptutational narratives/notebooks 
+===
+
