@@ -110,8 +110,8 @@ https://www.nature.com/articles/d41586-019-01333-0
     * Docker
     
 * Session 04: RRP - Writing and dissemination (3 hr.)
-  * 04_01: Write scientific article
-    * Notebooks for writing scientific articles
+  * 04_01: Write scientific article,  
+    * Notebooks for writing scientific articles. [rticles](https://vickysteeves.gitlab.io/repro-papers/r-markdown-in-reproducible-research.html)
   * 04_02: Create additional resources
     * Notebooks for flexdashboards
     * Notebooks for presentations

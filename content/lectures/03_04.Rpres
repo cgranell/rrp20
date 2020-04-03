@@ -1,0 +1,33 @@
+
+RRP'20 - Tools and readings
+========================================================
+author: Carlos Granell
+date: March 2020
+transition: rotate
+css: rpp.css
+
+<small>
+[GEOTEC research group](http://geotec.uji.es/)      
+Universitat Jaume I
+</small>
+
+
+Tools
+===
+
+- [Markdown](https://www.markdownguide.org/)
+- [R Markdown](https://rmarkdown.rstudio.com/)
+- [RPubs](https://rpubs.com/)
+- Make
+- Binder
+- Docker
+
+Readings
+===
+
+- [Markdown basic syntax reference](https://www.markdownguide.org/basic-syntax)
+- [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+- [Xie et al, 2019](https://bookdown.org/yihui/rmarkdown/): _R Markdown: The Definitive Guide_
+- [R Markdown cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+
+

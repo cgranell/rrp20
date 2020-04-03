@@ -57,33 +57,21 @@ In this course you will get an introduction to the main ideas and tools to acqui
 * Session 03: RRP - Iterative workflow (3 hr.)
   * [03_01](http://www3.uji.es/~canut/rrp20/03_01.html): Write code
       * _Video - Survey project: data and code_
-  * 03_02: Write reproducible notebooks
-    * Literate programming 
-    * Markdown language
-      * [Video - Survey project: create README file]()
-    * Notebooks and Computational narratives
-      * to be read, run and explored
-      * [Video - Survey project: create computational report]()
- 
+  * 03_02: Markdown and reproducible notebooks
+      * _Video - Survey project: create README file with Markdown_
+      * _Video - Survey project: create a computational report with R Markdown_
   * 03_03: Virtual containers
-    * Issue: dependences, version, OS
-    * Remote containers with Binder
-    * Local containers with Docker
-  * 03_04: Examples & Discussion
-    * [Video - Covid-19 project]()
+  * 03_04: Tools & readings
+  * 03_05: Examples
+    * _Video - Covid-19 project_
   
-  * 03_05: Tools & readings
-    * Markdown
-    * Make
-    * Binder
-    * Docker
-    
 * Session 04: RRP - Writing and dissemination (3 hr.)
   * 04_01: Write scientific article
     * Notebooks for writing scientific articles
   * 04_02: Create additional resources
-    * Notebooks for flexdashboards
-    * Notebooks for presentations
+    * Flexdashboards
+    * Presentations/slides
+    * Shiny apps (and shinyapp.io)
   * 04_03: Examples & Discussion
   * 04_04: Tools & readings
 
@@ -92,19 +80,15 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * AGILE guidelines
     * General rules/papers from literature
     * Cite code and data
-  * 05_02: Publication of reproducible reports
-    * Use of RPubs
-    * Use of Shinyapps 
-  * 05_03: Permanent archiving 
+  * 05_02: Permanent archiving 
     * Archive data and code via WebHooks GitHub-Zenodo and get a DOI
     * Udpate README files with DOIs, links to remote containers, etc.
-  * 05_04: Examples & Discussion  
-  * 05_05: Tools & readings
+  * 05_03: Examples & Discussion  
+  * 05_04: Tools & readings
     * Data repositories: Zenodo, r3registry
     * [Open Science Foundation](https://osf.io/)
-    * [RPubs](https://rpubs.com/)
     * [Shinyapps.io](https://www.shinyapps.io/)
-  
+
 * Session 06: How to reproduce other's work & final project (4 hr.)
   * 06_01: How to read a research article
   * 06_02: How to read a research compendium
