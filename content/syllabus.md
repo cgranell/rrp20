@@ -51,19 +51,28 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * [02_02](http://www3.uji.es/~canut/rrp20/02_02.html): Before you start 
   * [02_03](http://www3.uji.es/~canut/rrp20/02_03.html): First steps
   * [02_04](http://www3.uji.es/~canut/rrp20/02_04.html): Tools & readings
-  * 02_05: Examples & discussion
+  * 02_05: Examples
+    * [Video - Survey project: Create project folder in RStudio Cloud]()
   
 * Session 03: RRP - Iterative workflow (3 hr.)
-  * 03_01: Write code
+  * 03_01: Write (& commit) code
+      * [Video - Survey project: data and coding]()
   * 03_02: Write reproducible notebooks/reports
     * Literate programming 
+    * 
     * Markdown format
+      * [Video - Survey project: create README file]()
     * Notebooks and Computational narratives
+      * to be read, run and explored
+      * [Video - Survey project: create computational report]()
+ 
   * 03_03: Virtual containers
     * Issue: dependences, version, OS
     * Remote containers with Binder
     * Local containers with Docker
   * 03_04: Examples & Discussion
+    * [Video - Covid-19 project]()
+  
   * 03_05: Tools & readings
     * Markdown
     * Make
