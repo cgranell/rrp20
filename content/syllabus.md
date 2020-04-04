@@ -57,11 +57,11 @@ In this course you will get an introduction to the main ideas and tools to acqui
 * Session 03: RRP - Iterative workflow (3 hr.)
   * [03_01](http://www3.uji.es/~canut/rrp20/03_01.html): Write code
       * _Video - Survey project: data and code_
-  * 03_02: Markdown and reproducible notebooks
+  * [03_02](http://www3.uji.es/~canut/rrp20/03_02.html): Markdown and reproducible notebooks
       * _Video - Survey project: create README file with Markdown_
       * _Video - Survey project: create a computational report with R Markdown_
   * 03_03: Virtual containers
-  * 03_04: Tools & readings
+  * [03_04](http://www3.uji.es/~canut/rrp20/03_04.html): Tools & readings
   * 03_05: Examples
     * _Video - Covid-19 project_
   

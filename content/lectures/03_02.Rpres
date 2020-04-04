@@ -1,5 +1,5 @@
 
-RRP'20 - Iterative workflow 
+RRP'20 - Markdown and computational notebooks 
 ========================================================
 author: Carlos Granell
 date: March 2020
@@ -87,11 +87,11 @@ incremental:true
 
 _How can others take advantage of my computational notebooks?_
 
-Other can **read**, **run** and **explore** them!
+Others can **read**, **run** and **explore** them!
 
 - you can support others **reading** your analysis (eg. attaching HTML/PDF version to your paper, publishing it in [Rpubs](http://rpubs.com/))
-- you can suport others **running** your notebooks in the cloud (eg. [Binder](https://mybinder.org/))
-- you can suport other **exploring** your analysis by changing parameter (eg. sliders, dashboards)
+- you can support others **running** your notebooks in the cloud (eg. [Binder](https://mybinder.org/))
+- you can support other **exploring** your analysis by changing parameter (eg. sliders, dashboards)
 
 
 #2 Write computational notebooks
