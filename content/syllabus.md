@@ -3,7 +3,6 @@ title: "Syllabus"
 author: "Carlos Granell"
 date: "March 2020"
 output: "html_document"
-layout: default
 keywords:
 - reproducible research
 - open science
@@ -14,12 +13,14 @@ keywords:
 
 # Course title
 
-Reproducible Research Practices
+**Reproducible Research Practices**
 
 ---
 
 ## Course instructor(s)
 [Carlos Granell](http://carlosgranell.eu) 
+
+[GEOTEC](http://geotec.uji.es/) research group - Universitat Jaume I, Spain
 
 ---
 
@@ -39,34 +40,34 @@ In this course you will get an introduction to the main ideas and tools to acqui
 
 ## Course content
 
-* Session 01: Introduction to reproducibility (4 hr.)
-  * [00_01](http://www3.uji.es/~canut/rrp20/00_01.html): Practical arrangements
-  * [01_01](http://www3.uji.es/~canut/rrp20/01_01.html): Historical notes on reproduction & concept
-  * [01_02](http://www3.uji.es/~canut/rrp20/01_02.html): Reproducible Research AGILE (our story)
-  * [01_03](http://www3.uji.es/~canut/rrp20/01_03.html): Reproducibility today
-  * [01_04](http://www3.uji.es/~canut/rrp20/01_04.html): PhD thesis meets reproducibility
+* Session 01: INTRODUCTION TO REPRODUCIBILITY (4 hr.)
+  * [00_01](http://www3.uji.es/~canut/rrp20/00_01.html): **Practical arrangements**
+  * [01_01](http://www3.uji.es/~canut/rrp20/01_01.html): **Historical notes on reproduction & concept**
+  * [01_02](http://www3.uji.es/~canut/rrp20/01_02.html): **Reproducible Research AGILE (our story)**
+  * [01_03](http://www3.uji.es/~canut/rrp20/01_03.html): **Reproducibility today**
+  * [01_04](http://www3.uji.es/~canut/rrp20/01_04.html): **PhD thesis meets reproducibility**
 
-* Session 02: RRP - Preliminaries (3 hr.).
-  * [02_01](http://www3.uji.es/~canut/rrp20/02_01.html): A simple reproducible project workflow 
-  * [02_02](http://www3.uji.es/~canut/rrp20/02_02.html): Before you start 
-  * [02_03](http://www3.uji.es/~canut/rrp20/02_03.html): First steps
-  * [02_04](http://www3.uji.es/~canut/rrp20/02_04.html): Tools & readings
+* Session 02: RRP - PRELIMINARIES (3 hr.).
+  * [02_01](http://www3.uji.es/~canut/rrp20/02_01.html): **A simple reproducible project workflow** 
+  * [02_02](http://www3.uji.es/~canut/rrp20/02_02.html): **Before you start** 
+  * [02_03](http://www3.uji.es/~canut/rrp20/02_03.html): **First steps**
+  * [02_04](http://www3.uji.es/~canut/rrp20/02_04.html): **Tools & readings**
   * 02_05: Examples
     * _Video - Survey project: Create project folder in RStudio Cloud_
   
-* Session 03: RRP - Iterative workflow (3 hr.)
-  * [03_01](http://www3.uji.es/~canut/rrp20/03_01.html): Write code
+* Session 03: RRP - ITERATIVE WORKFLOWS (3 hr.)
+  * [03_01](http://www3.uji.es/~canut/rrp20/03_01.html): **Write code**
       * _Video - Survey project: data and code_
-  * [03_02](http://www3.uji.es/~canut/rrp20/03_02.html): Markdown and reproducible notebooks
+  * [03_02](http://www3.uji.es/~canut/rrp20/03_02.html): **Markdown and reproducible notebooks**
       * _Video - Survey project: create README file with Markdown_
       * _Video - Survey project: create a computational report with R Markdown_
   * 03_03: Virtual containers
-  * [03_04](http://www3.uji.es/~canut/rrp20/03_04.html): Tools & readings
+  * [03_04](http://www3.uji.es/~canut/rrp20/03_04.html): **Tools & readings**
   * 03_05: Examples
     * _Video - Covid-19 project_
   
-* Session 04: RRP - Writing and dissemination (3 hr.)
-  * 04_01: Write scientific article
+* Session 04: RRP - WRITING AND DISSEMINATION (3 hr.)
+  * 04_01: **Write scientific articles**
     * Notebooks for writing scientific articles
   * 04_02: Create additional resources
     * Flexdashboards
@@ -75,21 +76,21 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * 04_03: Examples & Discussion
   * 04_04: Tools & readings
 
-* Session 05: RRP - Publication and archiving (3 hr.)
-  * 05_01: Guidelines to write reproducible papers
+* Session 05: RRP - PUBLICATIONS AND ARCHIVING (3 hr.)
+  * 05_01: **Guidelines to write reproducible papers**
     * AGILE guidelines
     * General rules/papers from literature
     * Cite code and data
-  * 05_02: Permanent archiving 
+  * 05_02: **Permanent archiving** 
     * Archive data and code via WebHooks GitHub-Zenodo and get a DOI
     * Udpate README files with DOIs, links to remote containers, etc.
-  * 05_03: Examples & Discussion  
+  * 05_03: Examples
   * 05_04: Tools & readings
     * Data repositories: Zenodo, r3registry
     * [Open Science Foundation](https://osf.io/)
     * [Shinyapps.io](https://www.shinyapps.io/)
 
-* Session 06: How to reproduce other's work & final project (4 hr.)
+* Session 06: HOW TO REPRODUCE OTHER'S WORK A& FINAL PROJECT (4 hr.)
   * 06_01: How to read a research article
   * 06_02: How to read a research compendium
   * 06_03: Ideas for projects

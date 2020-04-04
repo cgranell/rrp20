@@ -129,7 +129,9 @@ https://www.nature.com/articles/d41586-019-01333-0
   * 05_03: Permanent archiving 
     * Archive data and code via WebHooks GitHub-Zenodo and get a DOI
     * Udpate README files with DOIs, links to remote containers, etc.
-  * 05_04: Examples & Discussion  
+  * 05_04: Examples & Discussion
+    * https://www.nature.com/articles/s41558-020-0697-0
+    * JMU paper
   * 05_05: Tools & readings
     * Data repositories: Zenodo, r3registry
     * [Open Science Foundation](https://osf.io/)
