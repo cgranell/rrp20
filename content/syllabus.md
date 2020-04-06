@@ -67,8 +67,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * _Video - Covid-19 project_
   
 * Session 04: RRP - WRITING AND DISSEMINATION (3 hr.)
-  * 04_01: **Write scientific articles**
-    * Notebooks for writing scientific articles
+  * 04_01: **Scientific articles as reproducible notebooks**
   * 04_02: Create additional resources
     * Flexdashboards
     * Presentations/slides
