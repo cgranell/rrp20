@@ -64,18 +64,18 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * 03_03: Virtual containers
   * [03_04](http://www3.uji.es/~canut/rrp20/03_04.html): **Tools & readings**
   * 03_05: Examples
-    * _Video - Covid-19 project_
+    * Video - Covid-19 project
   
 * Session 04: RRP - WRITING AND DISSEMINATION (3 hr.)
-  * 04_01: **Scientific articles as reproducible notebooks**
+  * [04_01](http://www3.uji.es/~canut/rrp20/04_01.html): **Scientific articles as reproducible notebooks**
+    * _Video - Create a scientific article with R Markdown_
   * 04_02: Create additional resources
     * Flexdashboards
     * Presentations/slides
     * Shiny apps (and shinyapp.io)
-  * 04_03: Examples & Discussion
-  * 04_04: Tools & readings
+  * 04_03: Tools & readings
 
-* Session 05: RRP - PUBLICATIONS AND ARCHIVING (3 hr.)
+* Session 05: RRP - PUBLISHING AND ARCHIVING (3 hr.)
   * 05_01: **Guidelines to write reproducible papers**
     * AGILE guidelines
     * General rules/papers from literature

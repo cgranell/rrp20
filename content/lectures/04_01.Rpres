@@ -25,64 +25,92 @@ A simple reproducible project workflow
 Practices
 ===
 
-Repeat until a task's is done:
-
-#1 Write scientific articles  
+#1 Leverage markdown to write scientific articles
 
 #2 Show your work for different audiences
 
 
-#1 Write scientific articles
+#1 Markdown to write scientific articles
 ===
 incremental: true
 
 For writing a paper...
-- Do you use a word processor? 
-- Do you use web-based collaborative writing platform?  
-- Do you use _Markdown_??? 
+- Do you use a word processor on your computer? 
+- Do you use collaborative writing platform?  
+- Do you use __markdown__? (_what?_ _are you kidding me?_) 
 
 
-#1 Write scientific articles
+#1 Markdown to write scientific articles
 ===
 
 Traditional paper is a piece separated from code and data
 
 Reproducible notebooks are closer to the idea of (interactive) scientific papers. 
-- mix narrative with data & code
-- weak support of features in scientific writing (reference management, etc)
+- mix narrative in markdown with data & code
+- weak support for features of scientific writing (reference management, etc)
 
-Why not to use markdown to write scientific papers?
+Why not create personalised notebooks (_templates_) to write papers?
 
-#1 Write scientific articles
+#1 Markdown to write scientific articles
 ===
 
 Tools for collaborative writing:
 
-[Overleaf](https://www.overleaf.com/): Latex
-[Authorea](https://www.authorea.com/): Latex/markdown & code
-[Manuscripts.io](https://www.manuscripts.io/): Latex/markdown & code
-[Manubot](https://manubot.org/): markdown and code
-
+- [Overleaf](https://www.overleaf.com/): Latex
+- [Authorea](https://www.authorea.com/): Latex/markdown & code
+- [Manuscripts.io](https://www.manuscripts.io/): Latex/markdown & code
+- [Manubot](https://manubot.org/): markdown & code
 
 Further readings:
 - [Synchronized editing: the future of collaborative writing](https://www.nature.com/articles/d41586-020-00916-6)
 
-#1 Write scientific articles
+#1 Markdown to write scientific articles
 ===
 
-Same workflow (-> routine, habit)
+`rticles` package to write scientific papers in markdown/latex
 
-- Write in markdown
-- Convert it into a `.html`, `.pdf`, or `.docx` document
+Same workflow (-> routine, habit):
 
-Difference with R Markdown (notebooks) is a extended header section (metadata between `---` and `---` )
+- pick an R markdown **template** 
+- Write markdown (and latex)
+- Convert it into **.pdf**, .html, or .docx
 
-#1 Write scientific articles
+`rticles` templates consist of:
+- _header_ section (wrapped by `---`): custom article properties 
+- _body_ section that combines markdown/latex & code chunks: article content
+
+
+#1 Markdown to write scientific articles
 ===
 
-https://bookdown.org/yihui/rmarkdown/journals.html
+Check the video _Create a scientific article with R Markdown_! 
 
 Further readings:
-- [Rticles](https://github.com/rstudio/rticles) R package: 
-- Allaire, JJ, R Foundation, Hadley Wickham, Journal of Statistical Software, Yihui Xie, Ramnath Vaidyanathan, Association for Computing Machinery, et al. 2018. Rticles: Article Formats for R Markdown.
+- [rticles](https://github.com/rstudio/rticles) R package
 - [Writing reprocible geoscience papers using R Markdown, Docker, and GitLab](https://vickysteeves.gitlab.io/repro-papers/r-markdown-in-reproducible-research.html)
+- [Xie et al, 2019](https://bookdown.org/yihui/rmarkdown/): _R Markdown: The Definitive Guide_
+- [Yie 2019](https://bookdown.org/yihui/bookdown/): _bookdown: Authoring Books and Technical Documents with R Markdown_
+
+#2 Show your work for different audiences
+===
+
+With **markdown** to authoring content, you can create:
+- text files: README files, [documents](https://bookdown.org/yihui/rmarkdown/documents.html)
+- computational notebooks: [R Markdown](https://rmarkdown.rstudio.com/), [R Notebook](https://bookdown.org/yihui/rmarkdown/notebook.html)
+- scientific papers: [R Markdown templates](https://bookdown.org/yihui/rmarkdown/journals.html)
+- presentations: [slides](https://bookdown.org/yihui/rmarkdown/presentations.html), [reveal.js slides](https://bookdown.org/yihui/rmarkdown/revealjs.html)
+- teaching materials: [handouts](https://bookdown.org/yihui/rmarkdown/tufte-handouts.html), [interactive tutorials](https://bookdown.org/yihui/rmarkdown/learnr.html)
+- books: [bookdown](https://bookdown.org/yihui/bookdown/)
+- dissemimation: [dashboards](https://bookdown.org/yihui/rmarkdown/dashboards.html), [websites](https://bookdown.org/yihui/rmarkdown/websites.html)  
+
+# Show your work for different audiences
+===
+
+You worked hard over **months** to produce a key paper.
+- Can you spend **1 hour** to write a post in plain language? *Do it!*
+
+Example:
+  - [scientific paper](https://doi.org/10.2196/14897) and associated [data and code](https://doi.org/10.5281/zenodo.3609267)
+  - [dashboard](https://rpubs.com/cgranell/jmu2020)
+  - [blog post](http://geotec.uji.es/2020/04/04/new-publication-smartphone-apps-for-the-treatment-of-mental-disorders-by-geotecuji-and-labpsitec/)
+  
