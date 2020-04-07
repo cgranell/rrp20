@@ -1,0 +1,44 @@
+---
+title: 'RRP''20 [01_01]: Historical notes & concept'
+author: '[Carlos Granell](http://carlosgranell.eu/) <br> [GEOTEC research group](http://geotec.uji.es/)'
+date: "March 2020"
+output:
+  beamer_presentation: default
+  ioslides_presentation:
+    widerscreen: yes
+subtitle: 'Session 01: INTRODUCTION TO REPRODUCIBILITY'
+bibliography: refs-test.bib
+---
+
+# Quote
+
+Focus is the art of knowing what to ignore.
+
+The fastest way to raise your level of performance: Cut your number of commitments in half.
+
+@baker2017
+
+# 
+
+Session 01: INTRODUCTION TO REPRODUCIBILITY 
+
+- 01_01: Historical notes on reproduction & concept
+
+
+## The profession of the scientist
+
+- Why are you a scientist/researcher?
+
+- What are your motivations?
+
+## The profession of the scientist
+
+__Intrinsic__ motivations:
+> - "locos por investigar"
+> - avance knowledge
+> - make a better world!
+
+__Extrinsic__ motivations:
+> - financial incentives
+> - move up the career ladder
+> - recognition by peers, society
