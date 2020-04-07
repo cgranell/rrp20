@@ -1,12 +1,11 @@
 ---
-title: 'RRP''20 [01_01]: Historical notes & concept'
-author: '[Carlos Granell](http://carlosgranell.eu/) <br> [GEOTEC research group](http://geotec.uji.es/)'
+title: "[01] Introduction to reproducibility"
+author: "[Carlos Granell](http://carlosgranell.eu/) <br> [GEOTEC research group](http://geotec.uji.es/) <br> Universitat Jaume I"
 date: "March 2020"
 output:
-  beamer_presentation: default
   ioslides_presentation:
     widerscreen: yes
-subtitle: 'Session 01: INTRODUCTION TO REPRODUCIBILITY'
+subtitle: "[01_01]: Historical notes & concept"
 bibliography: refs-test.bib
 ---
 
@@ -15,14 +14,6 @@ bibliography: refs-test.bib
 Focus is the art of knowing what to ignore.
 
 The fastest way to raise your level of performance: Cut your number of commitments in half.
-
-@baker2017
-
-# 
-
-Session 01: INTRODUCTION TO REPRODUCIBILITY 
-
-- 01_01: Historical notes on reproduction & concept
 
 
 ## The profession of the scientist
@@ -34,11 +25,33 @@ Session 01: INTRODUCTION TO REPRODUCIBILITY
 ## The profession of the scientist
 
 __Intrinsic__ motivations:
+
 > - "locos por investigar"
 > - avance knowledge
 > - make a better world!
 
 __Extrinsic__ motivations:
+
 > - financial incentives
 > - move up the career ladder
 > - recognition by peers, society
+
+## Reproducibility in Science
+
+Doubt is inherently human and we (scientists) always have doubts!
+
+- (Well, that doesn’t mean it’s OK to keep questioning climate change, evolution, and the power of vaccines...)
+
+Avancing science and knowledge requires:
+
+- __openness__,
+- __transparency__,
+- __reproduction__ and   
+- __cumulative evidence__ (reviews)
+
+# Reproducibility in Science
+
+## Reproducibility in Science
+
+
+![funnel](figs/reproducible_funnel.jpg)
