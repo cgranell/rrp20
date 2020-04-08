@@ -75,10 +75,10 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * dahsboards (Flexdashboards)
     * Shiny apps (and shinyapp.io)
     * books, teaching materials, ...
-  * 04_04: Tools & readings
+  * [04_04](http://www3.uji.es/~canut/rrp20/04_04.html): **Tools & readings**
 
 * Session 05: RRP - PUBLISHING AND ARCHIVING (3 hr.)
-  * 05_01: **Permanent archiving** 
+  * 05_01: Permanent archiving
     * Archive data and code via WebHooks GitHub-Zenodo and get a DOI
     * Udpate README files with DOIs, links to remote containers, etc.
   * 05_03: Examples
