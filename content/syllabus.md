@@ -69,18 +69,16 @@ In this course you will get an introduction to the main ideas and tools to acqui
 * Session 04: RRP - WRITING AND DISSEMINATION (3 hr.)
   * [04_01](http://www3.uji.es/~canut/rrp20/04_01.html): **Scientific articles as reproducible notebooks**
     * _Video - Create a scientific article with R Markdown_
-  * 04_02: Create additional resources
-    * Flexdashboards
+  * [04_02](http://www3.uji.es/~canut/rrp20/04_02.html): **Guidelines to write reproducible papers**
+  * 04_03: Disseminate your work using markdown
     * Presentations/slides
+    * dahsboards (Flexdashboards)
     * Shiny apps (and shinyapp.io)
-  * 04_03: Tools & readings
+    * books, teaching materials, ...
+  * 04_04: Tools & readings
 
 * Session 05: RRP - PUBLISHING AND ARCHIVING (3 hr.)
-  * 05_01: **Guidelines to write reproducible papers**
-    * AGILE guidelines
-    * General rules/papers from literature
-    * Cite code and data
-  * 05_02: **Permanent archiving** 
+  * 05_01: **Permanent archiving** 
     * Archive data and code via WebHooks GitHub-Zenodo and get a DOI
     * Udpate README files with DOIs, links to remote containers, etc.
   * 05_03: Examples
