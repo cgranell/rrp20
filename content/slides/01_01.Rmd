@@ -5,18 +5,19 @@ date: "March 2020"
 output:
   ioslides_presentation:
     widerscreen: yes
+    transition: slower
 subtitle: "[01_01]: Historical notes & concept"
 bibliography: refs-test.bib
 ---
 
-# Quote
+# {.vcenter}
 
 Focus is the art of knowing what to ignore.
 
 The fastest way to raise your level of performance: Cut your number of commitments in half.
 
 
-## The profession of the scientist
+## The profession of the scientist 
 
 - Why are you a scientist/researcher?
 
@@ -51,7 +52,10 @@ Avancing science and knowledge requires:
 
 # Reproducibility in Science
 
-## Reproducibility in Science
 
+----
 
-![funnel](figs/reproducible_funnel.jpg)
+<center>
+<img src="figs/reproducible_funnel.jpg" style="width:80%">
+</center>
+
