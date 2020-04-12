@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>[01_03] Reproducibility today</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Carlos Granell, GEOTEC research group" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# [01_03] Reproducibility today
+## [01] Introduction to reproducibility <br> <small>RRP’20</small>
+### <a href="http://carlosgranell.eu/">Carlos Granell</a>, <a href="http://geotec.uji.es/">GEOTEC research group</a>
+### Universitat Jaume I
+### March 2020
+
+---
+
+
+layout: true
+
+background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
+background-position: left bottom
+background-size: 15%
+
+
+
+
+
+
+---
+class: inverse, center, middle
+
+## Research Ecosystem 
+
+
+---
+class: center, middle
+
+&lt;img src="figs/stodden_ecosystem.png" width="70%"/&gt;
+
+.right[[Source](http://www.stodden.net)]
+
+---
+
+# Research is a complex ecosystem
+
+Community-driven approach to reproducibility &lt;a name=cite-granell2018&gt;&lt;/a&gt;[[Gra+18](https://doi.org/10.7287/peerj.preprints.27216v1)]
+
+.center[![](figs/OGRS2018Fig1.jpg)]
+
+---
+
+# Institucional/policy level
+
+.pull-left[
+US view (May 2019): [Reproducibility and Replicability in Science](https://www.nap.edu/catalog/25303/reproducibility-and-replicability-in-science):
+
+- reproducibility _vs_ replicability
+- recommendatios to improve R&amp;R across science
+- target different actors
+- education &amp; training
+]
+
+.pull-right[
+&lt;img src="figs/nap.jpg" width="55%"/&gt;
+]
+
+---
+
+# Publisher level  
+
+
+[TOP](https://cos.io/top/) (Transparency and Openness Promotion) Guidelines for journals and funders
+- 8 modular standards x 3 levels of increasing implementation/adoption
+
+[TOP Factor](https://www.topfactor.org/) 
+- Check if journals of your discipline support TOP guidelines!
+
+
+---
+class: center, middle
+
+# Publisher level - TOP Guidelines  
+
+&lt;img src="figs/topguidelines.png" width="75%" /&gt;
+
+---
+
+# Publisher level
+
+&lt;a name=cite-vasilevsky2017&gt;&lt;/a&gt;[[Vas+17](https://doi.org/10.7717/peerj.3208)]: _Reproducible and reusable research: are journal data sharing policies meeting the mark?_
+
+- Sample: 318 biomedical journals 
+
+- Review on data sharing policies:required, recommended, required only for omics data, or not addressed at all.
+  - 12% required data sharing as a condition of publication
+  - 9%  required data sharing
+  - 15% required it for omics data
+  - 23% encouraged data sharing
+  - 40% no mention to data sharing 
+
+---
+
+# Publisher level
+
+Software/code Journals: 
+- [Journal of Open Research Software](https://openresearchsoftware.metajnl.com/), [Journal of Open Source Software](https://joss.theoj.org/), [The R Journal](https://journal.r-project.org/), [SoftwareX](https://www.journals.elsevier.com/softwarex)
+
+Reproducible experiments journals: 
+- [ReScience X](http://rescience.org/x), [ReScience C](http://rescience.github.io/), [Experimental Results](https://www.cambridge.org/core/journals/experimental-results), [Advances in Methods and Practices in Psychological Science](https://journals.sagepub.com/home/amp), [Quarterly Journal of Political Science](https://www.nowpublishers.com/QJPS)
+
+Data journals: 
+- [Data in Brief](https://www.journals.elsevier.com/data-in-brief), [Scientific Data](https://www.nature.com/sdata/), [GigaScience](https://academic.oup.com/gigascience), [Data](https://www.mdpi.com/journal/data)
+
+
+---
+
+# Instituticional/Publisher level 
+
+If data _IS_ a key outcome, publish it a data journal
+- follow journal guidelines, either propietary (eg [SAGE](https://www.data-planet.com/)) or public repositories
+
+If data _IS NOT_ key but valuable, deposit/publish it in __public repositories__
+
+- Find the right repository for your data: [re3data.org](http://re3data.org/), [Repository Finder](https://repositoryfinder.datacite.org/)
+
+- Use thematic repositories for your discipline
+
+- Use general-purpose repositories ([Zenodo](https://zenodo.org/), [figshare](https://figshare.com/)) 
+
+---
+
+# Community level 
+
+Initiatives/Projects: 
+
+- [Codecheck](https://codecheck.org.uk/): independent reproduction of computations in research papers.
+
+- [Opening Reproducible Research](https://o2r.info/) (O2R): developing Research Compendium.
+
+- [Whole Tale](https://wholetale.org/): infrastructure for reproduction
+
+- [Papers with Code](https://paperswithcode.com/): Machine Learning papers &amp; code &amp; evaluation tables. 
+
+- [Frictionless Data for reproducible research](http://frictionlessdata.io/reproducible-research/) (by OKF).
+
+---
+
+# Community level 
+
+Conferences &amp; associations:
+- [ACM badges](https://www.acm.org/publications/policies/artifact-review-badging)
+
+- [NeurIPSConf](https://neurips.cc/)
+
+- [SIGMOD](http://db-reproducibility.seas.harvard.edu/)
+
+- [PVLDB Reproducibility](https://www.vldb-repro.com/)
+
+- [AGILE](https://agile-online.org/)
+
+---
+
+# Research Group level
+
+- [Victoria Stodden](ttp://www.stodden.net)
+
+- [Lorena Barba](https://lorenabarba.com/)
+
+- [Brian Nosek](https://cos.io/about/team/brian-nosek-co-founder-and-executive-director/)
+
+- ...your research group!!!... 
+
+---
+
+# Individual level
+
+This course is about __training__ on computational research practices!
+
+We'll see many resources along the course both __general__ recommendations:
+- [Ten simple rules collection](https://collections.plos.org/ten-simple-rules): _must-read!_
+
+- &lt;a name=cite-sandve2013&gt;&lt;/a&gt;[[San+17](https://dx.doi.org/10.1371/journal.pcbi.1003285)]: _Ten simple rules for reproducible computational research_
+
+- &lt;a name=cite-wilson2017&gt;&lt;/a&gt;[[Wil+17](https://dx.doi.org/10.1371/journal.pcbi.1005510)]: _Good enough practices in scientific computing_
+ 
+---
+ 
+# Individual level
+
+and __specific__ recommendations:
+- British Ecological Society (BES), [guides to better science](https://www.britishecologicalsociety.org/publications/guides-to/)
+
+- &lt;a name=cite-nust2019&gt;&lt;/a&gt;[[Nus+18](https://doi.org/10.17605/OSF.IO/CB7Z8)]: _AGILE Reproducible Paper Guidelines_
+
+- &lt;a name=cite-rule2019&gt;&lt;/a&gt;[[Rul+19](https://dx.doi.org/10.1371/journal.pcbi.1007007)]: _Ten simple rules for reproducible research in Jupyter notebooks_  
+
+---
+
+# Discussion
+
+Explore the list of helpful guides in [“Ten Simple Rules” collection](https://collections.plos.org/ten-simple-rules), and choose a couple to read carefully.
+
+Find a handful of data repositories that match your research topics. Rank them in order of preference. 
+
+Check out the data &amp; code sharing policies of your usual journals. Study their policies. Otherwise, find alternatives to publish!
+
+Pick a [topic](https://paperswithcode.com/sota) and explore their papers &amp; code.  
+
+---
+
+# References
+
+&lt;a name=bib-granell2018&gt;&lt;/a&gt;[Granell, C, D Nust, et
+al.](#cite-granell2018) (2018). "Reproducible Research is like
+riding a bike". In: _PeerJ Preprints_ 6, p. e27216v1. URL:
+[https://doi.org/10.7287/peerj.preprints.27216v1](https://doi.org/10.7287/peerj.preprints.27216v1).
+
+&lt;a name=bib-nust2019&gt;&lt;/a&gt;[Nust, D, FO Ostermann, et
+al.](#cite-nust2019) (2018). _AGILE Reproducible Paper
+Guidelines_. URL:
+[https://doi.org/10.17605/OSF.IO/CB7Z8](https://doi.org/10.17605/OSF.IO/CB7Z8).
+
+&lt;a name=bib-rule2019&gt;&lt;/a&gt;[Rule, A, A Birmingham, et
+al.](#cite-rule2019) (2019). "Ten simple rules for reproducible
+research in Jupyter notebooks". In: _PLoS computational biology_
+15.7, p.  e1007007. URL:
+[https://dx.doi.org/10.1371/journal.pcbi.1007007](https://dx.doi.org/10.1371/journal.pcbi.1007007).
+
+&lt;a name=bib-sandve2013&gt;&lt;/a&gt;[Sandve, GK, A Nekrutenko, et
+al.](#cite-sandve2013) (2017). "Ten simple rules for reproducible
+computational research". In: _PLoS Computacional Biology_ 9.10, p.
+e1003285. URL:
+[https://dx.doi.org/10.1371/journal.pcbi.1003285](https://dx.doi.org/10.1371/journal.pcbi.1003285).
+
+&lt;a name=bib-vasilevsky2017&gt;&lt;/a&gt;[Vasilevsky, NA, J Minnier, et
+al.](#cite-vasilevsky2017) (2017). "Reproducible and reusable
+research: are journal data sharing policies meeting the mark?" In:
+_PeerJ_ 5, p. e3208. URL:
+[https://doi.org/10.7717/peerj.3208](https://doi.org/10.7717/peerj.3208).
+
+&lt;a name=bib-wilson2017&gt;&lt;/a&gt;[Wilson, G, J Bryan, et
+al.](#cite-wilson2017) (2017). "Good enough practices in
+scientific computing". In: _PLoS Computacional Biology_ 13.6, p.
+e1005510. URL:
+[https://dx.doi.org/10.1371/journal.pcbi.1005510](https://dx.doi.org/10.1371/journal.pcbi.1005510).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

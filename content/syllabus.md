@@ -44,8 +44,8 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * 00_01: **Practical arrangements** [slides](http://www3.uji.es/~canut/rrp20/00_01.html)
   * 01_01: **Historical notes on reproduction & concept** [slides](http://www3.uji.es/~canut/rrp20/01_01.html) [pdf](http://www3.uji.es/~canut/rrp20/01_01.pdf)
   * 01_02: **Reproducible Research @ AGILE** [slides](http://www3.uji.es/~canut/rrp20/01_02.html) [pdf](http://www3.uji.es/~canut/rrp20/01_02.pdf)
-  * [01_03](http://www3.uji.es/~canut/rrp20/01_03.html): **Reproducibility today**
-  * [01_04](http://www3.uji.es/~canut/rrp20/01_04.html): **PhD thesis meets reproducibility**
+  * 01_03: **Reproducibility today** [slides](http://www3.uji.es/~canut/rrp20/01_03.html) [pdf](http://www3.uji.es/~canut/rrp20/01_03.pdf)
+  * 01_04: **PhD thesis meets reproducibility** [slides](http://www3.uji.es/~canut/rrp20/01_04.html) [pdf](http://www3.uji.es/~canut/rrp20/01_04.pdf)
 
 * Session 02: RRP - PRELIMINARIES (3 hr.).
   * [02_01](http://www3.uji.es/~canut/rrp20/02_01.html): **A simple reproducible project workflow** 

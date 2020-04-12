@@ -26,20 +26,7 @@ options(htmltools.dir.version = FALSE)
 ```
 
 ```{r, load_refs, include=FALSE, cache=FALSE}
-library(RefManageR)
-library(here)
-
-BibOptions(check.entries = FALSE,
-           bib.style = "authoryear",
-           cite.style = "alphabetic",
-           style = "markdown",
-           first.inits = FALSE,
-           hyperlink = "to.doc",
-           dashed = TRUE,
-           max.names = 2)
-
-path_bib <- here::here("content", "xaringa", "references.bib")
-my_refs <- RefManageR::ReadBib(path_bib, check = FALSE, .Encoding = "UTF-8")
+source("load_references.r")
 ```
 
 ---
@@ -378,7 +365,6 @@ Write a list of obstacles for reproducibility that potentially apply to your dis
 - Complex data gathering: multiple sensors, models, etc
 
 ---
-class: small
 
 # References (I)
 
@@ -387,7 +373,6 @@ PrintBibliography(my_refs, start = 1, end = 5)
 ```
 
 ---
-class: small
 
 # References (II)
 
@@ -396,7 +381,6 @@ PrintBibliography(my_refs, start = 6, end = 10)
 ```
 
 ---
-class: small
 
 # References (III)
 
