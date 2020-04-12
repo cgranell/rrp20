@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>[01] Introduction to reproducibility</title>
+    <title>[01_01] Historical notes &amp; concept</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Carlos Granell" />
+    <meta name="author" content="Carlos Granell, GEOTEC research group" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
   </head>
@@ -11,26 +11,22 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# [01] Introduction to reproducibility
-## [01_01]: Historical notes &amp; concept
-### <a href="http://carlosgranell.eu/">Carlos Granell</a>
-### <a href="http://geotec.uji.es/">GEOTEC research group</a> <br> Universitat Jaume I
-### March 2020 (updated: 2020-04-12)
+# <small>[01_01]</small> Historical notes &amp; concept
+## [01] Introduction to reproducibility <br> <small>RRP’20</small>
+### <a href="http://carlosgranell.eu/">Carlos Granell</a>, <a href="http://geotec.uji.es/">GEOTEC research group</a>
+### Universitat Jaume I
+### March 2020
 
 ---
 
 
-&lt;!--
+
 layout: true
 
 background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
-background-position: 0% 100%  bottom left
+background-position: left bottom
 background-size: 15%
 
-
-&lt;div class="my-footer"&gt;&lt;span&gt;geotec.uji.es&lt;/span&gt;&lt;/div&gt;
-
-this adds the link footer to all slides, depends on my-footer class in css--&gt;
 
 
 
@@ -92,8 +88,10 @@ Avancing science and knowledge requires:
 - __cumulative evidence__ (reviews)
 
 ---
+class: center
 
-![funnel](figs/reproducible_funnel.jpg)
+&lt;img src="figs/reproducible_funnel.jpg" width="80%"/&gt;
+
 
 ---
 class: center, middle
@@ -123,7 +121,7 @@ Boyle's [air-pump](https://en.wikipedia.org/wiki/Air_pump) was one of the first 
 ]
 
 .pull-right[
-![Lord Bacon](figs/Lord_Bacon.jpg)
+&lt;img src="figs/Lord_Bacon.jpg" width="55%"/&gt;
 ]
 
 ---
@@ -137,7 +135,7 @@ Boyle's [air-pump](https://en.wikipedia.org/wiki/Air_pump) was one of the first 
 ]
 
 .pull-right[
-![Robert Boyle](figs/Robert_Boyle.jpg)
+&lt;img src="figs/Robert_Boyle.jpg" width="75%"/&gt;
 ]
 
 ---
@@ -183,7 +181,7 @@ Let's go back to 30 years ago, with the birth of Internet...
 ]
 
 .pull-right[
-![notebook](figs/Claerbout92.png)
+&lt;img src="figs/Claerbout92.png" width="80%"/&gt;
 ]
 
 ---
@@ -207,33 +205,33 @@ In 2015, [1,500 scientists lift the lid on reproducibility](https://www.nature.c
 # Is reproduciblity a (new) problem?
 
 .pull-left[
-![](figs/reproducibility-graphic-online4.jpg)
+&lt;img src="figs/reproducibility-graphic-online4.jpg" width="65%"/&gt;
 ]
 
 .pull-right[
-![](figs/reproducibility-graphic-online5.jpg)
+&lt;img src="figs/reproducibility-graphic-online5.jpg" width="70%"/&gt;
 ]
 
 ---
 
 # Is reproduciblity a (new) problem?
 
-There is an extensive literature on the __reproducucibility crisis__:
+There is an extensive literature on the __reproducibility crisis__:
 
 - In scientific studies in general, across various disciplines. See [[Ioa05]](https://doi.org/10.1371/journal.pmed.0020124): _Why most published research findings are false_
 
-- In economics. See [Ioannidis, Stanley &amp; Doucouliagos, 2017](https://doi.org/10.1111/ecoj.12461): _The Power of Bias in Economics Research_
+- In economics. See [[ISD17]](https://doi.org/10.1111/ecoj.12461): _The Power of Bias in Economics Research_
 
-- In medical chemistry. See [Baker, 2017](https://doi.org/10.1038/548485a): _Check your chemistry_
+- In medical chemistry. See [[Bak17]](https://doi.org/10.1038/548485a): _Check your chemistry_
 
-- In neuroscience. See [Button et al, 2013](https://doi.org/10.1038/nrn3475): _Power failure: why small sample size undermines the reliability of neuroscience_
+- In neuroscience. See [[But+13]](https://doi.org/10.1038/nrn3475): _Power failure: why small sample size undermines the reliability of neuroscience_
 
 ---
 
 # Is reproduciblity a (new) problem?
 
 .pull-left[
-[Baker, 2015](https://doi.org/10.1038/nature.2015.17433): _First results from psychology’s largest reproducibility test_
+[[Bak15]](https://doi.org/10.1038/nature.2015.17433): _First results from psychology's largest reproducibility test_
 
 - Only 39 out ot 100 of the published studies in psychology could be reproduced.
 ]
@@ -248,7 +246,7 @@ There is an extensive literature on the __reproducucibility crisis__:
 
 Some argue there is not a such reproducibility crisis.
 
-[Fanelli, 2018](https://doi.org/10.1073/pnas.1708272114): _Is science really facing a reproducibility crisis, and do we need it to?_
+[[Fan18]](https://doi.org/10.1073/pnas.1708272114): _Opinion: Is science really facing a reproducibility crisis, and do we need it to?_
 
 &gt; The new “science is in crisis” narrative is not only empirically unsupported, but also quite obviously counterproductive. Instead of inspiring younger generations to do more and better science, it might foster in them cynicism and indifference. Instead of inviting greater respect for and investment in research, it risks discrediting the value of evidence and feeding antiscientific agendas.
 
@@ -289,13 +287,14 @@ We define _reproducibility_ to mean __computational reproducibility__
   - X-informatics: bio-informatics, geo-informatics, ...
   - [The Transformation of the Desk](https://www.youtube.com/watch?v=M_rfujuRHUU)
 
-- If results are produced by complex computational processes, the methods section of a scientific paper is no longer sufficient. 
+- If results are produced by complex computational processes, the _methods_ section of a scientific paper is no longer sufficient. 
 
 ---
 
 # The concept of reproduction 
 
-__Re__{producible,plicable,create}: [Claerbout &amp; Karrenbach, 1992](https://doi.org/10.1190/1.1822162); [Donoho et al, 2009](https://doi.org/10.1109/MCSE.2009.15); [Peng, 2011](https://doi.org/10.1126/science.1213847); [Barba, 2018](https://arxiv.org/abs/1802.03311): 
+__Re__{producible,plicable,create}: [[CK92]](https://doi.org/10.1190/1.1822162); 
+[[Don+09]](https://doi.org/10.1109/MCSE.2009.15); [[Pen11]](https://doi.org/10.1126/science.1213847); [[Bar18]](https://arxiv.org/abs/1802.03311):
 
 - __Reproducible research__: Authors provide all the necessary data and the computer codes to run
 the analysis again, re-creating the results.
@@ -307,7 +306,7 @@ data (possibly with different methods) and completing new analyses.
 
 # The concept of reproduction 
 
-If you read one article, read this one! [Leek &amp; Jager, 2017](https://doi.org/10.1146/annurev-statistics-060116-054104)
+If you read one article, read this one! [[LJ17]](https://doi.org/10.1146/annurev-statistics-060116-054104):  _Is Most Published Research Really False?_
 
 - __Reproducibility__: A study is reproducible if all of the code and data used to generate the numbers and figures in the paper are available and exactly produce the published results.
 
@@ -319,7 +318,7 @@ If you read one article, read this one! [Leek &amp; Jager, 2017](https://doi.org
 
 # The concept of reproduction 
 
-Our definition: [Ostermann &amp; Granell, 2017](https://doi.org/10.1111/tgis.12195); [Nüst et al., 2018](https://doi.org/10.7717/peerj.5072)
+Our definition: [[OG17]](https://doi.org/10.1111/tgis.12195); [[NÃs+18]](https://doi.org/10.7717/peerj.5072):
 
 &gt; A reproducible paper ensures a reviewer or reader can recreate the computational workflow of a study or experiment, including the prerequisite knowledge and the computational environment. The former implies the scientific argument to be understandable and sound. The latter requires a detailed description of used software and data, and both being openly available.
 
@@ -327,7 +326,7 @@ Our definition: [Ostermann &amp; Granell, 2017](https://doi.org/10.1111/tgis.121
 
 # The concept of reproduction 
 
-[Peng, 2011](https://doi.org/10.1126/science.1213847): _Reproducibility spectrum_
+[[Pen11]](https://doi.org/10.1126/science.1213847): _Reproducible Research in Computational Science_
 
 ![](figs/spectrumreproducibility.jpg)
 
@@ -336,7 +335,8 @@ Our definition: [Ostermann &amp; Granell, 2017](https://doi.org/10.1111/tgis.121
 # The concept of (pre-)reproduction 
 
 .pull-left[
-[Stark, 2018](https://doi.org/10.1038/d41586-018-05256-0): _preproducibility_
+[[Sta18]](https://doi.org/10.1038/d41586-018-05256-0): _Before reproducibility must come preproducibility_
+
 - "Science should be ‘show me’, not ‘trust me’; it should be ‘help me if you can’, not ‘catch me if you can’. 
 - "If I publish an advertisement for my work (that is, a paper long on results but short on methods) and it’s wrong, that makes me untrustworthy. 
 - "If I say: ‘here’s my work’ and it’s wrong, I might have erred, but at least I am honest". 
@@ -350,25 +350,16 @@ Our definition: [Ostermann &amp; Granell, 2017](https://doi.org/10.1111/tgis.121
 
 # Summary
 
-Reproducibility is the easiest of these problems to define and assess. 
-
-Computational reproducibility involves:
+Reproducibility involves the _original_ data and code:
 - checking the published manuscript, 
 - looking for published data and code, then 
 - comparing the results of that data and code to the published results. 
+- if they are the same, the study is reproducible; otherwise, it is not.
 
-&gt; If they are the same, the study is reproducible;
-&gt; otherwise, the study is not.
-
----
-
-# Summary 
-
-Reproducibility involves the _original_ data and code.
 
 Replicability involves _new_ data collection to test for consistency with previous results of a smiliar study.
 
-&gt; Even when paper is computationally reproducible, it may fail to be replicated
+- Even when paper is computationally reproducible, it may fail to be replicated
 
 ---
 
@@ -380,9 +371,27 @@ Write a list of obstacles for reproducibility that potentially apply to your dis
 - Complex data gathering: multiple sensors, models, etc
 
 ---
-name: refs
+class: small
 
-# References
+# References (I)
+
+Baker, Monya (2015). _First results from psychology's largest
+reproducibility test_. URL:
+[https://doi.org/10.1038/nature.2015.17433](https://doi.org/10.1038/nature.2015.17433).
+
+\-\-\- (2017). "Check your chemistry". In: _Nature_ 548.7668, pp.
+485-488. URL:
+[https://doi.org/10.1038/548485a](https://doi.org/10.1038/548485a).
+
+Barba, Lorena A. (2018). _Terminologies for Reproducible
+Research_. URL:
+[https://arxiv.org/abs/1802.03311](https://arxiv.org/abs/1802.03311).
+
+Button, Katherine S, John PA Ioannidis, Claire Mokrysz, et al.
+(2013). "Power failure: why small sample size undermines the
+reliability of neuroscience". In: _Nature Reviews Neuroscience_
+14.5, pp. 365-376. URL:
+[https://doi.org/10.1038/nrn3475](https://doi.org/10.1038/nrn3475).
 
 Claerbout, Jon F and Martin Karrenbach (1992). "Electronic
 documents give reproducible research a new meaning". In: _SEG
@@ -390,20 +399,69 @@ Technical Program Expanded Abstracts 1992_. Society of Exploration
 Geophysicists, pp. 601-604. URL:
 [https://doi.org/10.1190/1.1822162](https://doi.org/10.1190/1.1822162).
 
+---
+class: small
+
+# References (II)
+
+Donoho, D. L, A. Maleki, I. U. Rahman, et al. (2009).
+"Reproducible research in computational harmonic analysis". In:
+_Computing in Science &amp; Engineering_ 11.1, pp. 8-18. URL:
+[https://doi.org/10.1109/MCSE.2009.15](https://doi.org/10.1109/MCSE.2009.15).
+
+Fanelli, Daniele (2018). "Opinion: Is science really facing a
+reproducibility crisis, and do we need it to?" In: _Proceedings of
+the National Academy of Sciences_ 115.11, pp. 2628-2631. URL:
+[https://doi.org/10.1073/pnas.1708272114](https://doi.org/10.1073/pnas.1708272114).
+
 Ioannidis, J. P. (2005). "Why most published research findings are
-false". In: _PLOS Medicine_ 2 (8), p. e124. URL:
+false". In: _PLOS Medicine_ 2.8, p. e124. URL:
 [https://doi.org/10.1371/journal.pmed.0020124](https://doi.org/10.1371/journal.pmed.0020124).
 
+Ioannidis, J. P, T. D. Stanley, and Hristos Doucouliagos (2017).
+"The Power of Bias in Economics Research". In: _The Economic
+Journal_ 127.605, p. F236â€“F265. URL:
+[https://doi.org/10.1111/ecoj.12461](https://doi.org/10.1111/ecoj.12461).
+
 Knuth, D. E. (1984). "Literate Programming". In: _The Computer
-Journal_ 11 (2), pp. 97-111. URL:
+Journal_ 11.2, pp. 97-111. URL:
 [https://doi.org/10.1093/comjnl/27.2.97](https://doi.org/10.1093/comjnl/27.2.97).
+
+---
+class: small
+
+# References (III)
+
+Leek, Jeffrey T. and Leah R. Jager (2017). "Is Most Published
+Research Really False?" In: _Annual Review of Statistics and Its
+Application_ 4, pp. 109-122. URL:
+[https://doi.org/10.1146/annurev-statistics-060116-054104](https://doi.org/10.1146/annurev-statistics-060116-054104).
+
+NÃ¼st, Daniel, Carlos Granell, Barbara Hofer, et al. (2018).
+"Reproducible research and GIScience: an evaluation using AGILE
+conference papers". In: _PeerJ_ 6, p. e5072. URL:
+[https://doi.org/10.7717/peerj.5072](https://doi.org/10.7717/peerj.5072).
+
+Ostermann, Frank O and Carlos Granell (2017). "Advancing science
+with VGI: Reproducibility and replicability of recent studies
+using VGI". In: _Transactions in GIS_ 21.2, pp. 224-237. URL:
+[https://doi.org/10.1111/tgis.12195](https://doi.org/10.1111/tgis.12195).
+
+Peng, Roger D. (2011). "Reproducible Research in Computational
+Science". In: _Science_ 334.6060, pp. 1226-1227. URL:
+[https://doi.org/10.1126/science.1213847](https://doi.org/10.1126/science.1213847).
+
+Stark, Philip B (2018). "Before reproducibility must come
+preproducibility". In: _Nature_ 557.7706, pp. 613-614. URL:
+[https://doi.org/10.1038/d41586-018-05256-0](https://doi.org/10.1038/d41586-018-05256-0).
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
 "highlightLines": true,
-"countIncrementalSlides": false
+"countIncrementalSlides": false,
+"ratio": "16:9"
 });
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));

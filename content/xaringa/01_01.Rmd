@@ -1,9 +1,9 @@
 ---
-title: "[01] Introduction to reproducibility"
-subtitle: "[01_01]: Historical notes & concept"
-author: "[Carlos Granell](http://carlosgranell.eu/)"
-institute: "[GEOTEC research group](http://geotec.uji.es/) <br> Universitat Jaume I"
-date: "March 2020 (updated: `r Sys.Date()`)"
+title: "<small>[01_01]</small> Historical notes & concept"
+subtitle: "[01] Introduction to reproducibility <br> <small>RRP'20</small>"
+author: "[Carlos Granell](http://carlosgranell.eu/), [GEOTEC research group](http://geotec.uji.es/)"
+institute: "Universitat Jaume I"
+date: "March 2020"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -11,19 +11,16 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+      ratio: "16:9"
 ---
 
-<!--
+
 layout: true
 
 background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
-background-position: 0% 100%  bottom left
+background-position: left bottom
 background-size: 15%
 
-
-<div class="my-footer"><span>geotec.uji.es</span></div>
-
-this adds the link footer to all slides, depends on my-footer class in css-->
 
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
@@ -39,7 +36,7 @@ BibOptions(check.entries = FALSE,
            style = "markdown",
            first.inits = FALSE,
            hyperlink = FALSE,
-           dashed = FALSE)
+           dashed = TRUE)
 
 path_bib <- here::here("content", "xaringa", "references.bib")
 my_refs <- RefManageR::ReadBib(path_bib, check = FALSE, .Encoding = "UTF-8")
@@ -62,9 +59,7 @@ citation <- function(refs, id, with_url) {
 }
 
 citation_title <- function(refs, id) {
-  ref_cit <- refs[id]
-  
-  return (ref_cit$title)
+  return (refs[id]$title)
 }
 ```
 
@@ -122,8 +117,10 @@ Avancing science and knowledge requires:
 - __cumulative evidence__ (reviews)
 
 ---
+class: center
 
-![funnel](figs/reproducible_funnel.jpg)
+<img src="figs/reproducible_funnel.jpg" width="80%"/>
+
 
 ---
 class: center, middle
@@ -153,7 +150,7 @@ Boyle's [air-pump](https://en.wikipedia.org/wiki/Air_pump) was one of the first 
 ]
 
 .pull-right[
-![Lord Bacon](figs/Lord_Bacon.jpg)
+<img src="figs/Lord_Bacon.jpg" width="55%"/>
 ]
 
 ---
@@ -167,7 +164,7 @@ Boyle's [air-pump](https://en.wikipedia.org/wiki/Air_pump) was one of the first 
 ]
 
 .pull-right[
-![Robert Boyle](figs/Robert_Boyle.jpg)
+<img src="figs/Robert_Boyle.jpg" width="75%"/>
 ]
 
 ---
@@ -213,7 +210,7 @@ Let's go back to 30 years ago, with the birth of Internet...
 ]
 
 .pull-right[
-![notebook](figs/Claerbout92.png)
+<img src="figs/Claerbout92.png" width="80%"/>
 ]
 
 ---
@@ -237,33 +234,33 @@ In 2015, [1,500 scientists lift the lid on reproducibility](https://www.nature.c
 # Is reproduciblity a (new) problem?
 
 .pull-left[
-![](figs/reproducibility-graphic-online4.jpg)
+<img src="figs/reproducibility-graphic-online4.jpg" width="65%"/>
 ]
 
 .pull-right[
-![](figs/reproducibility-graphic-online5.jpg)
+<img src="figs/reproducibility-graphic-online5.jpg" width="70%"/>
 ]
 
 ---
 
 # Is reproduciblity a (new) problem?
 
-There is an extensive literature on the __reproducucibility crisis__:
+There is an extensive literature on the __reproducibility crisis__:
 
 - In scientific studies in general, across various disciplines. See `r citation(my_refs, "ioannidis2005", with_url="yes")`: _`r citation_title(my_refs, "ioannidis2005")`_
 
-- In economics. See [Ioannidis, Stanley & Doucouliagos, 2017](https://doi.org/10.1111/ecoj.12461): _The Power of Bias in Economics Research_
+- In economics. See `r citation(my_refs, "ioannidis2017", with_url="yes")`: _`r citation_title(my_refs, "ioannidis2017")`_
 
-- In medical chemistry. See [Baker, 2017](https://doi.org/10.1038/548485a): _Check your chemistry_
+- In medical chemistry. See `r citation(my_refs, "baker2017", with_url="yes")`: _`r citation_title(my_refs, "baker2017")`_
 
-- In neuroscience. See [Button et al, 2013](https://doi.org/10.1038/nrn3475): _Power failure: why small sample size undermines the reliability of neuroscience_
+- In neuroscience. See `r citation(my_refs, "button2013", with_url="yes")`: _`r citation_title(my_refs, "button2013")`_
 
 ---
 
 # Is reproduciblity a (new) problem?
 
 .pull-left[
-[Baker, 2015](https://doi.org/10.1038/nature.2015.17433): _First results from psychology’s largest reproducibility test_
+`r citation(my_refs, "baker2015", with_url="yes")`: _`r citation_title(my_refs, "baker2015")`_
 
 - Only 39 out ot 100 of the published studies in psychology could be reproduced.
 ]
@@ -278,7 +275,7 @@ There is an extensive literature on the __reproducucibility crisis__:
 
 Some argue there is not a such reproducibility crisis.
 
-[Fanelli, 2018](https://doi.org/10.1073/pnas.1708272114): _Is science really facing a reproducibility crisis, and do we need it to?_
+`r citation(my_refs, "fanelli2018", with_url="yes")`: _`r citation_title(my_refs, "fanelli2018")`_
 
 > The new “science is in crisis” narrative is not only empirically unsupported, but also quite obviously counterproductive. Instead of inspiring younger generations to do more and better science, it might foster in them cynicism and indifference. Instead of inviting greater respect for and investment in research, it risks discrediting the value of evidence and feeding antiscientific agendas.
 
@@ -319,13 +316,14 @@ We define _reproducibility_ to mean __computational reproducibility__
   - X-informatics: bio-informatics, geo-informatics, ...
   - [The Transformation of the Desk](https://www.youtube.com/watch?v=M_rfujuRHUU)
 
-- If results are produced by complex computational processes, the methods section of a scientific paper is no longer sufficient. 
+- If results are produced by complex computational processes, the _methods_ section of a scientific paper is no longer sufficient. 
 
 ---
 
 # The concept of reproduction 
 
-__Re__{producible,plicable,create}: [Claerbout & Karrenbach, 1992](https://doi.org/10.1190/1.1822162); [Donoho et al, 2009](https://doi.org/10.1109/MCSE.2009.15); [Peng, 2011](https://doi.org/10.1126/science.1213847); [Barba, 2018](https://arxiv.org/abs/1802.03311): 
+__Re__{producible,plicable,create}: `r citation(my_refs, "claerbout1992", with_url="yes")`; 
+`r citation(my_refs, "donoho2009", with_url="yes")`; `r citation(my_refs, "peng2011", with_url="yes")`; `r citation(my_refs, "barba2018", with_url="yes")`:
 
 - __Reproducible research__: Authors provide all the necessary data and the computer codes to run
 the analysis again, re-creating the results.
@@ -337,7 +335,7 @@ data (possibly with different methods) and completing new analyses.
 
 # The concept of reproduction 
 
-If you read one article, read this one! [Leek & Jager, 2017](https://doi.org/10.1146/annurev-statistics-060116-054104)
+If you read one article, read this one! `r citation(my_refs, "leek2017", with_url="yes")`:  _`r citation_title(my_refs, "leek2017")`_
 
 - __Reproducibility__: A study is reproducible if all of the code and data used to generate the numbers and figures in the paper are available and exactly produce the published results.
 
@@ -349,7 +347,7 @@ If you read one article, read this one! [Leek & Jager, 2017](https://doi.org/10.
 
 # The concept of reproduction 
 
-Our definition: [Ostermann & Granell, 2017](https://doi.org/10.1111/tgis.12195); [Nüst et al., 2018](https://doi.org/10.7717/peerj.5072)
+Our definition: `r citation(my_refs, "ostermann2017", with_url="yes")`; `r citation(my_refs, "nust2018", with_url="yes")`:
 
 > A reproducible paper ensures a reviewer or reader can recreate the computational workflow of a study or experiment, including the prerequisite knowledge and the computational environment. The former implies the scientific argument to be understandable and sound. The latter requires a detailed description of used software and data, and both being openly available.
 
@@ -357,7 +355,7 @@ Our definition: [Ostermann & Granell, 2017](https://doi.org/10.1111/tgis.12195);
 
 # The concept of reproduction 
 
-[Peng, 2011](https://doi.org/10.1126/science.1213847): _Reproducibility spectrum_
+`r citation(my_refs, "peng2011", with_url="yes")`: _`r citation_title(my_refs, "peng2011")`_
 
 ![](figs/spectrumreproducibility.jpg)
 
@@ -366,7 +364,8 @@ Our definition: [Ostermann & Granell, 2017](https://doi.org/10.1111/tgis.12195);
 # The concept of (pre-)reproduction 
 
 .pull-left[
-[Stark, 2018](https://doi.org/10.1038/d41586-018-05256-0): _preproducibility_
+`r citation(my_refs, "stark2018", with_url="yes")`: _`r citation_title(my_refs, "stark2018")`_
+
 - "Science should be ‘show me’, not ‘trust me’; it should be ‘help me if you can’, not ‘catch me if you can’. 
 - "If I publish an advertisement for my work (that is, a paper long on results but short on methods) and it’s wrong, that makes me untrustworthy. 
 - "If I say: ‘here’s my work’ and it’s wrong, I might have erred, but at least I am honest". 
@@ -380,25 +379,16 @@ Our definition: [Ostermann & Granell, 2017](https://doi.org/10.1111/tgis.12195);
 
 # Summary
 
-Reproducibility is the easiest of these problems to define and assess. 
-
-Computational reproducibility involves:
+Reproducibility involves the _original_ data and code:
 - checking the published manuscript, 
 - looking for published data and code, then 
 - comparing the results of that data and code to the published results. 
+- if they are the same, the study is reproducible; otherwise, it is not.
 
-> If they are the same, the study is reproducible;
-> otherwise, the study is not.
-
----
-
-# Summary 
-
-Reproducibility involves the _original_ data and code.
 
 Replicability involves _new_ data collection to test for consistency with previous results of a smiliar study.
 
-> Even when paper is computationally reproducible, it may fail to be replicated
+- Even when paper is computationally reproducible, it may fail to be replicated
 
 ---
 
@@ -410,10 +400,28 @@ Write a list of obstacles for reproducibility that potentially apply to your dis
 - Complex data gathering: multiple sensors, models, etc
 
 ---
-name: refs
+class: small
 
-# References
+# References (I)
 
-```{r print_refs, echo=FALSE, results="asis"}
-PrintBibliography(my_refs)
+```{r print_refs1, echo=FALSE, results="asis"}
+PrintBibliography(my_refs, start = 1, end = 5)
+```
+
+---
+class: small
+
+# References (II)
+
+```{r print_refs2, echo=FALSE, results="asis"}
+PrintBibliography(my_refs, start = 6, end = 10)
+```
+
+---
+class: small
+
+# References (III)
+
+```{r print_refs3, echo=FALSE, results="asis"}
+PrintBibliography(my_refs, start = 11, end = 15)
 ```

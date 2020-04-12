@@ -41,8 +41,8 @@ In this course you will get an introduction to the main ideas and tools to acqui
 ## Course content
 
 * Session 01: INTRODUCTION TO REPRODUCIBILITY (4 hr.)
-  * [00_01](http://www3.uji.es/~canut/rrp20/00_01.html): **Practical arrangements**
-  * [01_01](http://www3.uji.es/~canut/rrp20/01_01.html): **Historical notes on reproduction & concept**
+  * 00_01: **Practical arrangements** [slides](http://www3.uji.es/~canut/rrp20/00_01.html)
+  * 01_01: **Historical notes on reproduction & concept** [slides](http://www3.uji.es/~canut/rrp20/01_01.html) [pdf]([pdf](http://www3.uji.es/~canut/rrp20/00_01.pdf))
   * [01_02](http://www3.uji.es/~canut/rrp20/01_02.html): **Reproducible Research AGILE (our story)**
   * [01_03](http://www3.uji.es/~canut/rrp20/01_03.html): **Reproducibility today**
   * [01_04](http://www3.uji.es/~canut/rrp20/01_04.html): **PhD thesis meets reproducibility**
