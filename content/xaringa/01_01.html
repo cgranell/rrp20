@@ -20,16 +20,21 @@ class: center, middle, inverse, title-slide
 ---
 
 
+&lt;!--
 layout: true
 
 background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
-background-position: 100% 0%
+background-position: 0% 100%  bottom left
 background-size: 15%
 
-&lt;!--
+
 &lt;div class="my-footer"&gt;&lt;span&gt;geotec.uji.es&lt;/span&gt;&lt;/div&gt;
 
 this adds the link footer to all slides, depends on my-footer class in css--&gt;
+
+
+
+
 
 
 
@@ -148,7 +153,7 @@ Let's go back to 40 years ago, with the birth of personal computers...
 
 .pull-left[
 [Donald E Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) (1938-):
-- [Literate programming](https://en.wikipedia.org/wiki/Literate_programming): a new methodology of programming ([Knuth, 1984](https://doi.org/10.1093/comjnl/27.2.97)). 
+- [Literate programming](https://en.wikipedia.org/wiki/Literate_programming): a new methodology of programming. [Knu84]
 - In LP, a programme combines human language and code snippets.
 - "Programs are meant to be read by humans, and only incidentally for computers to execute."
 ]
@@ -170,7 +175,7 @@ Let's go back to 30 years ago, with the birth of Internet...
 # Is reproduciblity a new problem?
 
 .pull-left[
-[Claerbout &amp; Karrenbach, 1992](https://doi.org/10.1190/1.1822162): _Electronic documents give reproducible research a new meaning_
+[[CK92]](https://doi.org/10.1190/1.1822162): _Electronic documents give reproducible research a new meaning_
 
 - Executable digital notebook
 - Be open + help others
@@ -215,7 +220,7 @@ In 2015, [1,500 scientists lift the lid on reproducibility](https://www.nature.c
 
 There is an extensive literature on the __reproducucibility crisis__:
 
-- In scientific studies in general, across various disciplines. See [Ioannidis, 2005](https://doi.org/10.1371/journal.pmed.0020124): _Why most published research findings are false_
+- In scientific studies in general, across various disciplines. See [[Ioa05]](https://doi.org/10.1371/journal.pmed.0020124): _Why most published research findings are false_
 
 - In economics. See [Ioannidis, Stanley &amp; Doucouliagos, 2017](https://doi.org/10.1111/ecoj.12461): _The Power of Bias in Economics Research_
 
@@ -373,6 +378,25 @@ Write a list of obstacles for reproducibility that potentially apply to your dis
 - Complex instrumentation: high-performance computation facilities, etc.
 - Nonpublic information: patient records, human subject data, etc.
 - Complex data gathering: multiple sensors, models, etc
+
+---
+name: refs
+
+# References
+
+Claerbout, Jon F and Martin Karrenbach (1992). "Electronic
+documents give reproducible research a new meaning". In: _SEG
+Technical Program Expanded Abstracts 1992_. Society of Exploration
+Geophysicists, pp. 601-604. URL:
+[https://doi.org/10.1190/1.1822162](https://doi.org/10.1190/1.1822162).
+
+Ioannidis, J. P. (2005). "Why most published research findings are
+false". In: _PLOS Medicine_ 2 (8), p. e124. URL:
+[https://doi.org/10.1371/journal.pmed.0020124](https://doi.org/10.1371/journal.pmed.0020124).
+
+Knuth, D. E. (1984). "Literate Programming". In: _The Computer
+Journal_ 11 (2), pp. 97-111. URL:
+[https://doi.org/10.1093/comjnl/27.2.97](https://doi.org/10.1093/comjnl/27.2.97).
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

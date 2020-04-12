@@ -13,13 +13,14 @@ output:
       countIncrementalSlides: false
 ---
 
+<!--
 layout: true
 
 background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
-background-position: 100% 0%
+background-position: 0% 100%  bottom left
 background-size: 15%
 
-<!--
+
 <div class="my-footer"><span>geotec.uji.es</span></div>
 
 this adds the link footer to all slides, depends on my-footer class in css-->
@@ -30,15 +31,41 @@ options(htmltools.dir.version = FALSE)
 
 ```{r, load_refs, include=FALSE, cache=FALSE}
 library(RefManageR)
+library(here)
 
 BibOptions(check.entries = FALSE,
            bib.style = "authoryear",
            cite.style = "alphabetic",
            style = "markdown",
+           first.inits = FALSE,
            hyperlink = FALSE,
            dashed = FALSE)
 
-my_refs <- ReadBib("content/xaringa/references.bib", check = FALSE)
+path_bib <- here::here("content", "xaringa", "references.bib")
+my_refs <- RefManageR::ReadBib(path_bib, check = FALSE, .Encoding = "UTF-8")
+```
+
+```{r include=FALSE}
+citation <- function(refs, id, with_url) {
+  ref_cit <- RefManageR::Cite(refs, id)
+  
+  if (missing(with_url)) {
+    return (ref_cit)
+  } else {
+    ref_url <- refs[id]$url
+    return (paste0("[",
+                   ref_cit,
+                   "](",
+                   ref_url,
+                   ")"))
+  }
+}
+
+citation_title <- function(refs, id) {
+  ref_cit <- refs[id]
+  
+  return (ref_cit$title)
+}
 ```
 
 ---
@@ -156,8 +183,7 @@ Let's go back to 40 years ago, with the birth of personal computers...
 
 .pull-left[
 [Donald E Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) (1938-):
-- [Literate programming](https://en.wikipedia.org/wiki/Literate_programming): a new methodology of programming ([Knuth, 1984](https://doi.org/10.1093/comjnl/27.2.97)). 
-`r Citet(my_ref, "knuth1984")`
+- [Literate programming](https://en.wikipedia.org/wiki/Literate_programming): a new methodology of programming. `r citation(my_refs, "knuth1984")`
 - In LP, a programme combines human language and code snippets.
 - "Programs are meant to be read by humans, and only incidentally for computers to execute."
 ]
@@ -179,7 +205,7 @@ Let's go back to 30 years ago, with the birth of Internet...
 # Is reproduciblity a new problem?
 
 .pull-left[
-[Claerbout & Karrenbach, 1992](https://doi.org/10.1190/1.1822162): _Electronic documents give reproducible research a new meaning_
+`r citation(my_refs, "claerbout1992", with_url="yes")`: _`r citation_title(my_refs, "claerbout1992")`_
 
 - Executable digital notebook
 - Be open + help others
@@ -224,7 +250,7 @@ In 2015, [1,500 scientists lift the lid on reproducibility](https://www.nature.c
 
 There is an extensive literature on the __reproducucibility crisis__:
 
-- In scientific studies in general, across various disciplines. See [Ioannidis, 2005](https://doi.org/10.1371/journal.pmed.0020124): _Why most published research findings are false_
+- In scientific studies in general, across various disciplines. See `r citation(my_refs, "ioannidis2005", with_url="yes")`: _`r citation_title(my_refs, "ioannidis2005")`_
 
 - In economics. See [Ioannidis, Stanley & Doucouliagos, 2017](https://doi.org/10.1111/ecoj.12461): _The Power of Bias in Economics Research_
 
@@ -382,3 +408,12 @@ Write a list of obstacles for reproducibility that potentially apply to your dis
 - Complex instrumentation: high-performance computation facilities, etc.
 - Nonpublic information: patient records, human subject data, etc.
 - Complex data gathering: multiple sensors, models, etc
+
+---
+name: refs
+
+# References
+
+```{r print_refs, echo=FALSE, results="asis"}
+PrintBibliography(my_refs)
+```
