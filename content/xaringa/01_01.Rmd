@@ -1,5 +1,5 @@
 ---
-title: "<small>[01_01]</small> Historical notes & concept"
+title: "[01_01] Historical notes & concept"
 subtitle: "[01] Introduction to reproducibility <br> <small>RRP'20</small>"
 author: "[Carlos Granell](http://carlosgranell.eu/), [GEOTEC research group](http://geotec.uji.es/)"
 institute: "Universitat Jaume I"
