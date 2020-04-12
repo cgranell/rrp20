@@ -19,8 +19,26 @@ background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO
 background-position: 100% 0%
 background-size: 15%
 
+<!--
+<div class="my-footer"><span>geotec.uji.es</span></div>
+
+this adds the link footer to all slides, depends on my-footer class in css-->
+
 ```{r setup, include=FALSE}
 options(htmltools.dir.version = FALSE)
+```
+
+```{r, load_refs, include=FALSE, cache=FALSE}
+library(RefManageR)
+
+BibOptions(check.entries = FALSE,
+           bib.style = "authoryear",
+           cite.style = "alphabetic",
+           style = "markdown",
+           hyperlink = FALSE,
+           dashed = FALSE)
+
+my_refs <- ReadBib("content/xaringa/references.bib", check = FALSE)
 ```
 
 ---
@@ -139,6 +157,7 @@ Let's go back to 40 years ago, with the birth of personal computers...
 .pull-left[
 [Donald E Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) (1938-):
 - [Literate programming](https://en.wikipedia.org/wiki/Literate_programming): a new methodology of programming ([Knuth, 1984](https://doi.org/10.1093/comjnl/27.2.97)). 
+`r Citet(my_ref, "knuth1984")`
 - In LP, a programme combines human language and code snippets.
 - "Programs are meant to be read by humans, and only incidentally for computers to execute."
 ]
