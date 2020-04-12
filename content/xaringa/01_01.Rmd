@@ -34,32 +34,12 @@ BibOptions(check.entries = FALSE,
            cite.style = "alphabetic",
            style = "markdown",
            first.inits = FALSE,
-           hyperlink = FALSE,
-           dashed = TRUE)
+           hyperlink = "to.doc",
+           dashed = TRUE,
+           max.names = 2)
 
 path_bib <- here::here("content", "xaringa", "references.bib")
 my_refs <- RefManageR::ReadBib(path_bib, check = FALSE, .Encoding = "UTF-8")
-```
-
-```{r include=FALSE}
-citation <- function(refs, id, with_url) {
-  ref_cit <- RefManageR::Cite(refs, id)
-  
-  if (missing(with_url)) {
-    return (ref_cit)
-  } else {
-    ref_url <- refs[id]$url
-    return (paste0("[",
-                   ref_cit,
-                   "](",
-                   ref_url,
-                   ")"))
-  }
-}
-
-citation_title <- function(refs, id) {
-  return (refs[id]$title)
-}
 ```
 
 ---
@@ -179,7 +159,7 @@ Let's go back to 40 years ago, with the birth of personal computers...
 
 .pull-left[
 [Donald E Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) (1938-):
-- [Literate programming](https://en.wikipedia.org/wiki/Literate_programming): a new methodology of programming. `r citation(my_refs, "knuth1984")`
+- [Literate programming](https://en.wikipedia.org/wiki/Literate_programming): a new methodology of programming. `r Cite(my_refs, "knuth1984")`
 - In LP, a programme combines human language and code snippets.
 - "Programs are meant to be read by humans, and only incidentally for computers to execute."
 ]
@@ -201,7 +181,7 @@ Let's go back to 30 years ago, with the birth of Internet...
 # Is reproduciblity a new problem?
 
 .pull-left[
-`r citation(my_refs, "claerbout1992", with_url="yes")`: _`r citation_title(my_refs, "claerbout1992")`_
+`r Cite(my_refs, "claerbout1992")`: _`r my_refs["claerbout1992"]$title`_
 
 - Executable digital notebook
 - Be open + help others
@@ -246,20 +226,20 @@ In 2015, [1,500 scientists lift the lid on reproducibility](https://www.nature.c
 
 There is an extensive literature on the __reproducibility crisis__:
 
-- In scientific studies in general, across various disciplines. See `r citation(my_refs, "ioannidis2005", with_url="yes")`: _`r citation_title(my_refs, "ioannidis2005")`_
+- In scientific studies in general, across various disciplines. See `r Cite(my_refs, "ioannidis2005")`: _`r my_refs["ioannidis2005"]$title`_
 
-- In economics. See `r citation(my_refs, "ioannidis2017", with_url="yes")`: _`r citation_title(my_refs, "ioannidis2017")`_
+- In economics. See `r Cite(my_refs, "ioannidis2017")`: _`r my_refs["ioannidis2017"]$title`_
 
-- In medical chemistry. See `r citation(my_refs, "baker2017", with_url="yes")`: _`r citation_title(my_refs, "baker2017")`_
+- In medical chemistry. See `r Cite(my_refs, "baker2017")`: _`r my_refs["baker2017"]$title`_
 
-- In neuroscience. See `r citation(my_refs, "button2013", with_url="yes")`: _`r citation_title(my_refs, "button2013")`_
+- In neuroscience. See `r Cite(my_refs, "button2013")`: _`r my_refs["button2013"]$title`_
 
 ---
 
 # Is reproduciblity a (new) problem?
 
 .pull-left[
-`r citation(my_refs, "baker2015", with_url="yes")`: _`r citation_title(my_refs, "baker2015")`_
+`r Cite(my_refs, "baker2015")`: _`r my_refs["baker2015"]$title`_
 
 - Only 39 out ot 100 of the published studies in psychology could be reproduced.
 ]
@@ -274,7 +254,7 @@ There is an extensive literature on the __reproducibility crisis__:
 
 Some argue there is not a such reproducibility crisis.
 
-`r citation(my_refs, "fanelli2018", with_url="yes")`: _`r citation_title(my_refs, "fanelli2018")`_
+`r Cite(my_refs, "fanelli2018")`: _`r my_refs["fanelli2018"]$title`_
 
 > The new “science is in crisis” narrative is not only empirically unsupported, but also quite obviously counterproductive. Instead of inspiring younger generations to do more and better science, it might foster in them cynicism and indifference. Instead of inviting greater respect for and investment in research, it risks discrediting the value of evidence and feeding antiscientific agendas.
 
@@ -321,8 +301,7 @@ We define _reproducibility_ to mean __computational reproducibility__
 
 # The concept of reproduction 
 
-__Re__{producible,plicable,create}: `r citation(my_refs, "claerbout1992", with_url="yes")`; 
-`r citation(my_refs, "donoho2009", with_url="yes")`; `r citation(my_refs, "peng2011", with_url="yes")`; `r citation(my_refs, "barba2018", with_url="yes")`:
+__Re__{producible,plicable,create}: `r Cite(my_refs, c("claerbout1992", "donoho2009", "peng2011", "barba2018"))`:
 
 - __Reproducible research__: Authors provide all the necessary data and the computer codes to run
 the analysis again, re-creating the results.
@@ -334,7 +313,7 @@ data (possibly with different methods) and completing new analyses.
 
 # The concept of reproduction 
 
-If you read one article, read this one! `r citation(my_refs, "leek2017", with_url="yes")`:  _`r citation_title(my_refs, "leek2017")`_
+If you read one article, read this one! `r Cite(my_refs, "leek2017")`:  _`r my_refs["leek2017"]$title`_
 
 - __Reproducibility__: A study is reproducible if all of the code and data used to generate the numbers and figures in the paper are available and exactly produce the published results.
 
@@ -346,7 +325,7 @@ If you read one article, read this one! `r citation(my_refs, "leek2017", with_ur
 
 # The concept of reproduction 
 
-Our definition: `r citation(my_refs, "ostermann2017", with_url="yes")`; `r citation(my_refs, "nust2018", with_url="yes")`:
+Our definition: `r Cite(my_refs, c("ostermann2017", "nust2018"))`:
 
 > A reproducible paper ensures a reviewer or reader can recreate the computational workflow of a study or experiment, including the prerequisite knowledge and the computational environment. The former implies the scientific argument to be understandable and sound. The latter requires a detailed description of used software and data, and both being openly available.
 
@@ -354,7 +333,7 @@ Our definition: `r citation(my_refs, "ostermann2017", with_url="yes")`; `r citat
 
 # The concept of reproduction 
 
-`r citation(my_refs, "peng2011", with_url="yes")`: _`r citation_title(my_refs, "peng2011")`_
+`r Cite(my_refs, "peng2011")`: _`r my_refs["peng2011"]$title`_
 
 ![](figs/spectrumreproducibility.jpg)
 
@@ -363,7 +342,7 @@ Our definition: `r citation(my_refs, "ostermann2017", with_url="yes")`; `r citat
 # The concept of (pre-)reproduction 
 
 .pull-left[
-`r citation(my_refs, "stark2018", with_url="yes")`: _`r citation_title(my_refs, "stark2018")`_
+`r Cite(my_refs, "stark2018")`: _`r my_refs["stark2018"]$title`_
 
 - "Science should be ‘show me’, not ‘trust me’; it should be ‘help me if you can’, not ‘catch me if you can’. 
 - "If I publish an advertisement for my work (that is, a paper long on results but short on methods) and it’s wrong, that makes me untrustworthy. 
