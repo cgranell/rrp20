@@ -48,7 +48,7 @@ In this course you will get an introduction to the main ideas and tools to acqui
   * 01_04: **PhD thesis meets reproducibility** [slides](http://www3.uji.es/~canut/rrp20/01_04.html) [pdf](http://www3.uji.es/~canut/rrp20/01_04.pdf)
 
 * Session 02: RRP - PRELIMINARIES (3 hr.).
-  * [02_01](http://www3.uji.es/~canut/rrp20/02_01.html): **A simple reproducible project workflow** 
+  * 02_01: **A simple reproducible project workflow** [slides](http://www3.uji.es/~canut/rrp20/02_01.html) [pdf](http://www3.uji.es/~canut/rrp20/02_01.pdf)
   * [02_02](http://www3.uji.es/~canut/rrp20/02_02.html): **Before you start** 
   * [02_03](http://www3.uji.es/~canut/rrp20/02_03.html): **First steps**
   * [02_04](http://www3.uji.es/~canut/rrp20/02_04.html): **Tools & readings**

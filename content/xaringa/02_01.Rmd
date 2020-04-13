@@ -1,0 +1,168 @@
+---
+title: "[02_01] A simple reproducible project workflow"
+subtitle: "[02] Preliminaries <br> <small>RRP'20</small>"
+author: "[Carlos Granell](http://carlosgranell.eu/), [GEOTEC research group](http://geotec.uji.es/)"
+institute: "Universitat Jaume I"
+date: "March 2020"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+layout: true
+
+background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
+background-position: left bottom
+background-size: 15%
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r load_refs, include=FALSE, cache=FALSE}
+source("load_references.r")
+```
+
+---
+class: inverse, center, middle
+
+## Nobel laureate and physics professor [Richard Feynman](https://en.wikipedia.org/wiki/Richard_Feynman)
+
+### “Science is a way of trying not to fool yourself. The principle is that you must not fool yourself, and you are the easiest person to fool.”
+
+
+---
+
+# RRP - Preliminaries
+
+You learned the concept of __reproduction__ and explored its interpretation in your discipline 
+
+The idea of computational reproducibility is easy to understand:
+- check the published manuscript to reproduce, 
+
+- download associated data and code, 
+
+- run the analytical stuff, and 
+
+- compare the results to the published results. 
+
+---
+
+# RRP - Preliminaries
+
+Ok, I got it. But getting started is difficult!
+
+Why?
+- "I have never heard of reproducibility before"
+
+- "I'm not good at using tools. _You said github?_"
+
+- "I have never been trained"
+
+- "I don't know where to find tutorials, guidelines..." 
+
+- "I'm superbusy! I do not have enough time" 
+
+- "I do theoretical stuff. Reproduction is not for me"
+
+- ...
+
+---
+
+# RRP - Preliminaries
+
+No matter your excuse, RRP are central to enabling transparent and honest science
+* Reminder: _Don't fool yourself!_
+
+
+So, the real questions are:
+- How do I start to make my work more reproducible?
+
+- What steps or recommendations can I follow? 
+
+
+---
+
+# A simple reproducible project workflow
+
+Inspired by British Ecological Society (BES), [guides to better science](https://www.britishecologicalsociety.org/publications/guides-to/): [Reproducible code](https://www.britishecologicalsociety.org/wp-content/uploads/2019/06/BES-Guide-Reproducible-Code-2019.pdf) guide
+
+It will serve us to:
+- Discuss steps/recommendations
+
+- Introduce tools as required 
+
+- Adapt the steps to your realities
+
+- Links to other papers, guides and resources
+
+---
+
+# A simple reproducible project workflow
+
+.pull-left[
+.center[<img src="figs/simpleworkflow-bes.png" width="65%"/>
+]]
+
+.pull-right[
+- Top two boxes:
+  - 02_02: Before you start 
+  
+  - 02_03: First steps
+
+- Intermediate workflow
+  - 03: RRP - Iterative workflow
+
+- Bottom box
+  - 04: RRP - Writing and dissemination
+  
+  - 05: RRP - Publication and archiving
+]
+
+---
+
+# Warnings before starting
+
+
+There is NOT a unique path formula to make your work reproducible 
+- Study examples and guides and **adapt** them to your workflow
+
+Don't think about reproduction when the paper is ready to submit.
+- **Plan early** and **integrate** reproducible practices from the start
+
+Don't get stuck by the lack of skills in automated tools
+- **Add tools increasingly** into your workflow as you get skilled 
+
+
+---
+
+# Summary
+
+Goal is to **turn reproduction into a HABIT** 
+
+- First get the habit, then get tool skills
+
+- Plan early on your project
+
+Goal is to do research in which **RRP are first-class citizen**
+
+- Commonsense; maybe not all projects require reproduction
+
+- RRP are a dynamic process. Adapt them as your projects change and your skills improve
+
+- **RRP are for you**, then for others: _your future self will thank you!_ 
+
+
+ 
+
+
+
+
+
+
