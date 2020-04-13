@@ -78,7 +78,7 @@ Why?
 # RRP - Preliminaries
 
 No matter your excuse, RRP are central to enabling transparent and honest science
-* Reminder: _Don't fool yourself!_
+- Reminder: _Don't fool yourself!_
 
 
 So, the real questions are:

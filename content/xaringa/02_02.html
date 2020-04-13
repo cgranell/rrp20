@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>[02_02] Before you start</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Carlos Granell, GEOTEC research group" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# [02_02] Before you start
+## [02] Preliminaries <br> <small>RRP’20</small>
+### <a href="http://carlosgranell.eu/">Carlos Granell</a>, <a href="http://geotec.uji.es/">GEOTEC research group</a>
+### Universitat Jaume I
+### March 2020
+
+---
+
+
+layout: true
+
+background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
+background-position: left bottom
+background-size: 15%
+
+
+
+
+
+
+
+---
+
+# A simple reproducible project workflow
+
+.pull-left[
+.center[&lt;img src="figs/simpleworkflow-bes.png" width="65%"/&gt;
+]]
+
+.pull-right[
+- Top two boxes:
+  
+  - 02_02: Before you start 
+]
+
+---
+
+# Prerrequisites
+
+
+Remember: our focus is on __computational reproducibility__
+
+Next practices mostly apply to those of you that have never coded 
+
+If you code regularly, compare with yours and make your workflow more reproducible 
+
+---
+class: inverse
+
+# Practices
+
+--
+
+##1 Folder organisation
+
+--
+
+##2 Use a consistent naming convention 
+
+--
+
+##3 Choose a coding style
+
+--
+
+##4 (Set-up and) use your version control system of choice
+
+--
+
+##5 (Set-up and) use your online code repository service of choice
+
+
+---
+
+#1 Folder organisation
+
+
+- One folder = One project
+
+- Choose your best way to organise a folder
+  - Make sure it's consistent, informative and work for you 
+ 
+  - My [folder template](https://github.com/cgranell/rr-template). _Explore &amp; fork!_
+
+---
+
+#2 Consistent naming convention 
+
+
+.pull-left[
+.center[&lt;img src="figs/phdcomics1531.gif" width="60%" /&gt;]
+
+[Source](http://phdcomics.com/comics/archive.php?comicid=1531)
+]
+
+.pull-right[
+- Name things in machine- and human-readable manner
+
+- Order by default: 
+  - For scrips, start file names with numbers indicating the position of the script in the analysis: `01_download_data.R`
+
+  - for data, you can use dates as prefix: `20200115_survey.csv`
+]
+
+---
+
+#3 Coding style 
+
+
+Depends on the programming language of choice
+
+Adopt a consistent coding style: 
+- commenting code: the _'why'_ rather than the _'what'_
+
+- writing functions
+
+- naming variables
+
+- portable code: avoid absolute paths; use relative paths 
+  
+
+---
+#3 Coding style 
+
+Relative paths with ([here package](https://cran.r-project.org/web/packages/here/index.html) in R)
+
+
+```r
+library(here)
+
+data_path &lt;- here("data-raw")
+
+data &lt;- read_csv(data_path)
+```
+
+---
+
+#4 Version control system  (VCS)
+
+VCS advantages for reproduction:
+- keeps track of the various versions of your work
+
+- provides a complete historical log of your project 
+
+- was designed to handling text format (code, text documents, markdown documents) as opposed to rich/binary formats (Word) 
+
+Tools: SVN, Mercurial, [Git](https://git-scm.com/)
+
+Further reading: [An introduction to Git: what it is, and how to use it](https://www.freecodecamp.org/news/what-is-git-and-how-to-use-it-c341b049ae61/) 
+
+---
+
+#5 Online code repositories services 
+
+Web-based platform for hosting code repositories:
+- VCS + collaborative features
+
+- Platfoms: [GitLab](https://about.gitlab.com/), [Bitbucket](https://bitbucket.org/), [GitHub](https://github.com/)
+
+Further readings:
+- &lt;a name=cite-perez2016&gt;&lt;/a&gt;[[Per+16](https://doi.org/10.1371/journal.pcbi.1004947)]: _Ten simple rules for taking advantage of Git and GitHub_
+
+- [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/): _Best practices for organising your repository for easy version control_
+
+
+---
+
+# Summary
+
+Simple, commonsense, and easy to apply practices. _Start using them from now on!_
+
+Be organised and consistent is a great step to enabling reproduction
+- No need to come up with new file/folder names for every new project
+
+- Optimise your workflow
+
+- Add progresively tools (git, github) into your workflow
+
+---
+
+
+# References (I)
+
+&lt;a name=bib-perez2016&gt;&lt;/a&gt;[Perez-Riverol, Y, L Gatto, et
+al.](#cite-perez2016) (2016). "Ten simple rules for taking
+advantage of Git and GitHub". In: _PLoS computational biology_
+12.7. URL:
+[https://doi.org/10.1371/journal.pcbi.1004947](https://doi.org/10.1371/journal.pcbi.1004947).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

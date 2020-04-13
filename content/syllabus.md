@@ -49,9 +49,9 @@ In this course you will get an introduction to the main ideas and tools to acqui
 
 * Session 02: RRP - PRELIMINARIES (3 hr.).
   * 02_01: **A simple reproducible project workflow** [slides](http://www3.uji.es/~canut/rrp20/02_01.html) [pdf](http://www3.uji.es/~canut/rrp20/02_01.pdf)
-  * [02_02](http://www3.uji.es/~canut/rrp20/02_02.html): **Before you start** 
-  * [02_03](http://www3.uji.es/~canut/rrp20/02_03.html): **First steps**
-  * [02_04](http://www3.uji.es/~canut/rrp20/02_04.html): **Tools & readings**
+  * 02_02: **Before you start** [slides](http://www3.uji.es/~canut/rrp20/02_02.html) [pdf](http://www3.uji.es/~canut/rrp20/02_02.pdf) 
+  * 02_03: **First steps** [slides](http://www3.uji.es/~canut/rrp20/02_03.html) [pdf](http://www3.uji.es/~canut/rrp20/02_03.pdf)
+  * 02_04: **Tools & readings** [slides](http://www3.uji.es/~canut/rrp20/02_04.html)
   * 02_05: Examples
     * _Video - Survey project: Create project folder in RStudio Cloud_
   

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>[02_03] First steps</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Carlos Granell, GEOTEC research group" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# [02_03] First steps
+## [02] Preliminaries <br> <small>RRP’20</small>
+### <a href="http://carlosgranell.eu/">Carlos Granell</a>, <a href="http://geotec.uji.es/">GEOTEC research group</a>
+### Universitat Jaume I
+### March 2020
+
+---
+
+
+layout: true
+
+background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
+background-position: left bottom
+background-size: 15%
+
+
+
+
+
+
+
+---
+
+# A simple reproducible project workflow
+
+.pull-left[
+.center[&lt;img src="figs/simpleworkflow-bes.png" width="65%"/&gt;
+]]
+
+.pull-right[
+- Top two boxes:
+
+  - 02_03: First steps 
+]
+
+---
+class: inverse
+
+# Practices
+
+--
+
+##1 Create the project folder
+
+--
+
+##2 Create a (local) version control repository
+
+--
+
+##3 Connect the local repository to a remote repository
+
+--
+
+##4 Add a README file
+
+--
+
+##5 Add a LICENSE file
+
+
+---
+
+#1 Create the project folder 
+
+Remember: one folder = one project
+
+What's a project? 
+
+- one experiment, 
+
+- your ideas for future research,
+
+- regular meeting notes/minutes 
+
+- a review paper, conference presentations
+
+- a book, teaching materials
+
+- PhD thesis manuscript 
+  
+---
+
+#1 Create the project folder 
+
+Based on the [folder template](https://github.com/cgranell/rr-template):
+
+- Star with a limited number of folders depending on the type of project
+
+  - eg experiment: `data-raw` + `data` + `R` + `notes`
+
+  - eg book: `doc` + `notes`
+
+- Create new subfolders hierarchically as needed
+
+  - eg: `data/spain`, `data/europe` 
+
+- Include README files to describe metadata/complex content of subfolders
+
+
+---
+
+#2 Create a local version control repository 
+
+Turn your project folder into a __local version control repository__ to track changes on your work 
+
+After installing [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) on your computer, you can either: 
+- type sequence of commands in command-line interfaces (eg. commad prompt, shell)
+
+- graphical interfaces integrated in your favorite development environment (eg. RStudio)
+
+Dozens of resources by _googling_ [introduction to git](https://www.google.com/search?q=introduction+to+git)
+
+---
+
+#3 Connect local repository to a remote repository
+
+**Sync** your local repository to a remote, collaborative code repository
+
+If you work alone on a project, it's not necessary but recommended
+
+If you work with others on the same project, it's a must
+
+2-step workflow ([RStudio and Git/Github](https://happygitwithr.com/)): 
+- Make a remote [repository in GitHub](https://happygitwithr.com/new-github-first.html#make-a-repo-on-github-1) 
+
+- Make a [new RStudio project via git clone](https://happygitwithr.com/new-github-first.html#new-rstudio-project-via-git-clone)
+
+  - _File &gt; New Project &gt; Version Control &gt; Git_
+  
+---
+
+#4 Add a README file 
+
+Include a __README__ file in the root folder to describe the project, provide basic orientation to use the scritps, data, etc. 
+
+Written in [Markdown](https://www.markdownguide.org/) markup language (later on Sessions 03-05)
+
+Automatically visualised when landing on a GitHub repository
+
+- eg. [folder template](https://github.com/cgranell/rr-template)
+
+- eg. [review paper](https://github.com/cgranell/apps-mental-disorders-jmir)
+
+
+---
+
+#5 Add a LICENSE file
+
+A license is a contract between the authors and the users. Without a license, **copyright** is automatically attached to your work 
+
+**Always add a license** ([file](https://github.com/cgranell/rr-template/blob/master/LICENCE)) to software you plan to make public:
+ - Permissive = attribution (recomended for academic work)
+
+ - Copyleft = share-alike (derivate work maintain same license as the original)
+ 
+Further readings:
+- Visit [choosealicense](https://choosealicense.com/) or [OSI-approved licenses](https://opensource.org/licenses)
+
+- &lt;a name=cite-morin2012&gt;&lt;/a&gt;[[MUS12](https://dx.doi.org/10.1371/journal.pcbi.1002598)]: _A Quick Guide to Software Licensing for the Scientist-Programmer_
+
+- &lt;a name=cite-jolly2012&gt;&lt;/a&gt;[[JAB12](https://dx.doi.org/10.1371/journal.pcbi.1002766)]: _Ten Simple Rules to Protect Your Intellectual Property_
+
+---
+
+
+# References (I)
+
+&lt;a name=bib-jolly2012&gt;&lt;/a&gt;[Jolly, M, AC Fletcher AC, et
+al.](#cite-jolly2012) (2012). "Ten Simple Rules to Protect Your
+Intellectual Property". In: _PLoS Computacional Biology_ 8 (11),
+p. e1002766. URL:
+[https://dx.doi.org/10.1371/journal.pcbi.1002766](https://dx.doi.org/10.1371/journal.pcbi.1002766).
+
+&lt;a name=bib-morin2012&gt;&lt;/a&gt;[Morin, A, J Urban, et
+al.](#cite-morin2012) (2012). "A Quick Guide to Software Licensing
+for the Scientist-Programmer". In: _PLoS Computacional Biology_
+8.7, p. e1002598. URL:
+[https://dx.doi.org/10.1371/journal.pcbi.1002598](https://dx.doi.org/10.1371/journal.pcbi.1002598).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
