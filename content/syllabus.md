@@ -56,26 +56,26 @@ In this course you will get an introduction to the main ideas and tools to acqui
     * _Video - Survey project: Create project folder in RStudio Cloud_
   
 * Session 03: RRP - ITERATIVE WORKFLOWS (3 hr.)
-  * [03_01](http://www3.uji.es/~canut/rrp20/03_01.html): **Write code**
+  * 03_01: **Write code** [slides](http://www3.uji.es/~canut/rrp20/03_01.html) [pdf](http://www3.uji.es/~canut/rrp20/03_01.pdf)
       * _Video - Survey project: data and code_
-  * [03_02](http://www3.uji.es/~canut/rrp20/03_02.html): **Markdown and reproducible notebooks**
+  * 03_02: **Markdown and computational notebooks** [slides](http://www3.uji.es/~canut/rrp20/03_02.html) [pdf](http://www3.uji.es/~canut/rrp20/03_02.pdf)
       * _Video - Survey project: create README file with Markdown_
       * _Video - Survey project: create a computational report with R Markdown_
   * 03_03: Virtual containers
-  * [03_04](http://www3.uji.es/~canut/rrp20/03_04.html): **Tools & readings**
+  * 03_04: **Tools & readings** [slides](http://www3.uji.es/~canut/rrp20/03_04.html)
   * 03_05: Examples
     * Video - Covid-19 project
   
 * Session 04: RRP - WRITING AND DISSEMINATION (3 hr.)
-  * [04_01](http://www3.uji.es/~canut/rrp20/04_01.html): **Scientific articles as reproducible notebooks**
+  * 04_01: **Scientific articles as reproducible notebooks** [slides](http://www3.uji.es/~canut/rrp20/04_01.html) [pdf](http://www3.uji.es/~canut/rrp20/04_01.pdf)
     * _Video - Create a scientific article with R Markdown_
-  * [04_02](http://www3.uji.es/~canut/rrp20/04_02.html): **Guidelines to write reproducible papers**
+  * 04_02: **Guidelines to write reproducible papers** [slides](http://www3.uji.es/~canut/rrp20/04_02.html) [pdf](http://www3.uji.es/~canut/rrp20/04_02.pdf)
   * 04_03: Disseminate your work using markdown
     * Presentations/slides
     * dahsboards (Flexdashboards)
     * Shiny apps (and shinyapp.io)
     * books, teaching materials, ...
-  * [04_04](http://www3.uji.es/~canut/rrp20/04_04.html): **Tools & readings**
+  * 04_04: **Tools & readings** [slides](http://www3.uji.es/~canut/rrp20/04_04.html)
 
 * Session 05: RRP - PUBLISHING AND ARCHIVING (3 hr.)
   * 05_01: Permanent archiving

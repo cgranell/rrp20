@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>[03_02] Markdown and computational notebooks</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Carlos Granell, GEOTEC research group" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# [03_02] Markdown and computational notebooks
+## [03] Iterative workflow <br> <small>RRP’20</small>
+### <a href="http://carlosgranell.eu/">Carlos Granell</a>, <a href="http://geotec.uji.es/">GEOTEC research group</a>
+### Universitat Jaume I
+### March 2020
+
+---
+
+
+layout: true
+
+background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
+background-position: left bottom
+background-size: 15%
+
+
+
+
+
+
+
+---
+
+# A simple reproducible project workflow
+
+.pull-left[
+.center[&lt;img src="figs/simpleworkflow-bes.png" width="65%"/&gt;
+]]
+
+.pull-right[
+- Intermediate workflow
+
+  - 03: RRP - Iterative workflow
+]]
+
+
+---
+class: inverse
+
+# Practices
+
+--
+
+##1 Use Markdown as text format  
+
+--
+
+##2 Write computational notebooks
+
+
+---
+
+#1 Use Markdown as text format 
+
+You will need to document your project by writing :
+
+- One README file (_always!_)
+
+- One or more README files in other subfolders (_if required_)
+
+- project rationale and notes in folder `notes`
+
+- scientific articles in folder `doc`
+
+- computational notebooks in folder `reports`
+
+- books, slides, dashboards, etc.
+
+How many formats and tools do you need?
+
+---
+
+#1 Use Markdown as text format 
+
+**Markdown** can be used for everything!! 
+
+[Markdown](https://www.markdownguide.org/) is a lightweight markup language to add formatting elements to plain text documents
+
+These resources are a good starting point:
+- [Markdown basic syntax reference](https://www.markdownguide.org/basic-syntax)
+
+- [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+Don't miss video _Survey project: create README file with Markdown_! 
+
+Further readings:
+- &lt;a name=cite-xie2018&gt;&lt;/a&gt;[[XAG18](https://bookdown.org/yihui/rmarkdown/)]: _R markdown: The definitive guide_
+
+---
+
+#2 Write computational notebooks 
+
+**Computational notebooks** belong to the [literate programming](https://en.wikipedia.org/wiki/Literate_programming) approach that combines text and code in the same document.
+
+In R, **computational notebooks = R Markdown** documents:
+- prose (narrative text) in Markdown
+
+- source code in R programming language 
+
+Airbnb uses R Markdown to document all their analyses in R! - See &lt;a name=cite-bion2018&gt;&lt;/a&gt;[[BCG18](https://doi.org/10.1080/00031305.2017.1392362)]: _How R Helps Airbnb Make the Most of its Data_
+
+---
+
+#2 Write computational notebooks
+
+_Why must I create computational notebooks?_
+
+--
+
+- it captures your **entire analysis process** in one document
+
+--
+
+- it is **live document**  
+
+--
+
+- it can be rendered in **several output formats** (PDF, HTML)
+
+---
+
+#2 Write computational notebooks
+
+_How can others take advantage of my computational notebooks?_
+
+--
+
+Others can **read**, **run** and **explore** them!
+
+--
+
+- you can support others **reading** your analysis (eg. attaching HTML/PDF version to your paper, publishing it in [Rpubs](http://rpubs.com/))
+
+--
+
+- you can support others **running** your notebooks in the cloud (eg. [Binder](https://mybinder.org/))
+
+--
+
+- you can support other **exploring** your analysis by changing parameter (eg. sliders, dashboards)
+
+---
+
+#2 Write computational notebooks
+
+ 
+- Create a R Markdown file
+  - _File &gt; New File &gt; R Markdow_
+
+- Add narrative text as normal Markdown syntax,
+
+- Add code chunks using curly braces`{r` and `}`, and finally 
+
+Check the video _Survey project: create a computational report with R Markdown_!
+
+Further readings:
+- &lt;a name=cite-xie2019&gt;&lt;/a&gt;[[Xie19](https://bookdown.org/yihui/bookdown/)]: _bookdown: Authoring Books and Technical Documents with R Markdown_
+
+- [R Markdown Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+
+---
+
+# References (I)
+
+&lt;a name=bib-bion2018&gt;&lt;/a&gt;[Bion, R, R Chang, et
+al.](#cite-bion2018) (2018). "How R Helps Airbnb Make the Most of
+its Data". In: _The American Statistician_ 72.1, pp. 46-52. DOI:
+[10.1080/00031305.2017.1392362](https://doi.org/10.1080%2F00031305.2017.1392362).
+URL:
+[https://doi.org/10.1080/00031305.2017.1392362](https://doi.org/10.1080/00031305.2017.1392362).
+
+&lt;a name=bib-xie2019&gt;&lt;/a&gt;[Xie, Y](#cite-xie2019) (2019). _bookdown:
+Authoring Books and Technical Documents with R Markdown_. CRC
+Press. URL:
+[https://bookdown.org/yihui/bookdown/](https://bookdown.org/yihui/bookdown/).
+
+&lt;a name=bib-xie2018&gt;&lt;/a&gt;[Xie, Y, JJ Allaire, et
+al.](#cite-xie2018) (2018). _R markdown: The definitive guide_.
+CRC Press. URL:
+[https://bookdown.org/yihui/rmarkdown/](https://bookdown.org/yihui/rmarkdown/).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

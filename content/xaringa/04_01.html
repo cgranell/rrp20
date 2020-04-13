@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>[04_01] Scientific articles as reproducible notebooks</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Carlos Granell, GEOTEC research group" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# [04_01] Scientific articles as reproducible notebooks
+## [04] Writing and dissemination <br> <small>RRP’20</small>
+### <a href="http://carlosgranell.eu/">Carlos Granell</a>, <a href="http://geotec.uji.es/">GEOTEC research group</a>
+### Universitat Jaume I
+### March 2020
+
+---
+
+
+layout: true
+
+background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
+background-position: left bottom
+background-size: 15%
+
+
+
+
+
+
+
+---
+
+# A simple reproducible project workflow
+
+.pull-left[
+.center[&lt;img src="figs/simpleworkflow-bes.png" width="65%"/&gt;
+]]
+
+.pull-right[
+- Bottom box
+
+  - 04: RRP - Writing and dissemination
+]]
+
+
+---
+class: inverse
+
+# Practices
+
+--
+
+##1 Leverage markdown to write scientific articles
+
+--
+
+##2 Show your work for different audiences
+
+---
+
+#1 Markdown to write scientific articles
+
+For writing a paper...
+
+--
+
+- Do you use a word processor on your computer? 
+
+--
+
+- Do you use collaborative writing platform?  
+
+--
+
+- Do you use __markdown__? (_what?_ _are you kidding me?_) 
+
+
+---
+
+#1 Markdown to write scientific articles
+
+Traditional paper is a piece separated from code and data
+
+Reproducible notebooks are closer to the idea of (interactive) scientific papers. 
+- mix narrative in markdown with data &amp; code
+
+- weak support for features of scientific writing (reference management, etc)
+
+Why not create personalised notebooks (_templates_) to write papers?
+
+---
+
+#1 Markdown to write scientific articles
+
+Tools for collaborative writing:
+
+- [Overleaf](https://www.overleaf.com/): Latex
+
+- [Authorea](https://www.authorea.com/): Latex/markdown &amp; code
+
+- [Manuscripts.io](https://www.manuscripts.io/): Latex/markdown &amp; code
+
+- [Manubot](https://manubot.org/): markdown &amp; code
+
+Further readings:
+- [Synchronized editing: the future of collaborative writing](https://www.nature.com/articles/d41586-020-00916-6)
+
+---
+
+#1 Markdown to write scientific articles
+
+`rticles` package to write scientific papers in markdown/latex
+
+Same workflow (-&gt; routine, habit):
+
+- pick an R markdown **template** 
+
+- Write markdown (and latex)
+
+- Convert it into **.pdf**, .html, or .docx
+
+`rticles` templates consist of:
+
+- _header_ section ([YAML](https://en.wikipedia.org/wiki/YAML), surrounded by `---`): custom article properties 
+
+- _body_ section that combines markdown/latex &amp; code chunks: article content
+
+---
+
+#1 Markdown to write scientific articles
+
+Check the video _Create a scientific article with R Markdown_! 
+
+Further readings:
+- [rticles](https://github.com/rstudio/rticles) R package
+
+- [Writing reprocible geoscience papers using R Markdown, Docker, and GitLab](https://vickysteeves.gitlab.io/repro-papers/r-markdown-in-reproducible-research.html)
+
+- &lt;a name=cite-xie2018&gt;&lt;/a&gt;[[XAG18](https://bookdown.org/yihui/rmarkdown/)]: _R markdown: The definitive guide_
+
+- &lt;a name=cite-xie2019&gt;&lt;/a&gt;[[Xie19](https://bookdown.org/yihui/bookdown/)]: _bookdown: Authoring Books and Technical Documents with R Markdown_
+
+---
+
+#2 Show your work for different audiences
+
+With **markdown** to authoring content, you can create:
+
+- text files: README files, [documents](https://bookdown.org/yihui/rmarkdown/documents.html)
+
+- computational notebooks: [R Markdown](https://rmarkdown.rstudio.com/), [R Notebook](https://bookdown.org/yihui/rmarkdown/notebook.html)
+
+- scientific papers: [R Markdown templates](https://bookdown.org/yihui/rmarkdown/journals.html)
+
+- presentations: [slides](https://bookdown.org/yihui/rmarkdown/presentations.html), [reveal.js slides](https://bookdown.org/yihui/rmarkdown/revealjs.html)
+
+- teaching materials: [handouts](https://bookdown.org/yihui/rmarkdown/tufte-handouts.html), [interactive tutorials](https://bookdown.org/yihui/rmarkdown/learnr.html)
+
+- books: [bookdown](https://bookdown.org/yihui/bookdown/)
+
+- dissemimation: [dashboards](https://bookdown.org/yihui/rmarkdown/dashboards.html), [websites](https://bookdown.org/yihui/rmarkdown/websites.html)  
+
+---
+
+# Show your work for different audiences
+
+You worked hard over **months** to produce a key paper.
+
+- Can you spend **1 hour** to write a post in plain language? *Do it!*
+
+Example:
+
+  - [scientific paper](https://doi.org/10.2196/14897) and associated [data and code](https://doi.org/10.5281/zenodo.3609267)
+
+  - [dashboard](https://rpubs.com/cgranell/jmu2020)
+
+  - [blog post](http://geotec.uji.es/2020/04/04/new-publication-smartphone-apps-for-the-treatment-of-mental-disorders-by-geotecuji-and-labpsitec/)
+  
+---
+
+# References (I)
+
+&lt;a name=bib-xie2019&gt;&lt;/a&gt;[Xie, Y](#cite-xie2019) (2019). _bookdown:
+Authoring Books and Technical Documents with R Markdown_. CRC
+Press. URL:
+[https://bookdown.org/yihui/bookdown/](https://bookdown.org/yihui/bookdown/).
+
+&lt;a name=bib-xie2018&gt;&lt;/a&gt;[Xie, Y, JJ Allaire, et
+al.](#cite-xie2018) (2018). _R markdown: The definitive guide_.
+CRC Press. URL:
+[https://bookdown.org/yihui/rmarkdown/](https://bookdown.org/yihui/rmarkdown/).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>[04_02] Guidelines to write reproducible papers</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Carlos Granell, GEOTEC research group" />
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/default-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# [04_02] Guidelines to write reproducible papers
+## [04] Writing and dissemination <br> <small>RRP’20</small>
+### <a href="http://carlosgranell.eu/">Carlos Granell</a>, <a href="http://geotec.uji.es/">GEOTEC research group</a>
+### Universitat Jaume I
+### March 2020
+
+---
+
+
+layout: true
+
+background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
+background-position: left bottom
+background-size: 15%
+
+
+
+
+
+
+
+---
+
+# A simple reproducible project workflow
+
+.pull-left[
+.center[&lt;img src="figs/simpleworkflow-bes.png" width="65%"/&gt;
+]]
+
+.pull-right[
+- Bottom box
+
+  - 04: RRP - Writing and dissemination
+]]
+
+
+---
+class: inverse
+
+# Practices
+
+--
+
+##1 Follow available practices and guidelines 
+
+--
+
+##2 Cite data/software in your papers 
+
+---
+
+#1 Follow practices and guidelines
+
+In general: 
+
+- Write your papers in plain text format (markdown, latex. etc) that permits version controls
+
+- Use online tools ([manubot](https://manubot.org/)) or packages ([`rticles`](https://github.com/rstudio/rticles)) that support change tracking, reference management, cross-reference, etc.
+
+In particular: 
+
+- Follow _general enough_ practices and guidelines (across disciplines) 
+
+- Follow specific guidelines in your discipline 
+
+- Follow specific guidelines provided by target journals
+
+---
+
+#1 Follow practices and guidelines
+
+Further readings:
+- &lt;a name=cite-wilson2017&gt;&lt;/a&gt;[[Wil+17](https://dx.doi.org/10.1371/journal.pcbi.1005510)]: _Good enough practices in scientific computing_
+
+- &lt;a name=cite-rule2019&gt;&lt;/a&gt;[[Rul+19](https://dx.doi.org/10.1371/journal.pcbi.1007007)]: _Ten simple rules for reproducible research in Jupyter notebooks_
+
+- &lt;a name=cite-nust2018&gt;&lt;/a&gt;[[Nus+18](https://doi.org/10.7717/peerj.5072)]: _Reproducible research and GIScience: an evaluation using AGILE conference papers_
+
+- &lt;a name=cite-stodden2014&gt;&lt;/a&gt;[[SM14](https://doi.org/10.5334/jors.ay)]: _Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research_
+
+---
+
+#1 AGILE Guidelines [Nüst et al., 2018]
+
+Add a **Data and Software Availability** section to your *methods* section to make explicit where data and software can be accessed (or why they cannot) - [Example](https://doi.org/10.2196/14897)
+
+.center[&lt;img src="figs/AGILEGuidelines-DASA.png" width="70%" /&gt;]
+
+---
+
+#1 AGILE Guidelines - Data 
+
+Go progressively from *minimun* to *ideal*  
+
+![](figs/AGILEGuidelines-Data.png)
+
+---
+
+#1 AGILE Guidelines - Code
+
+.center[&lt;img src="figs/AGILEGuidelines-Code.png" width="60%" /&gt;]
+
+
+---
+
+#2 Cite data/software 
+
+If software/data are published as articles in journals, cite them as regular paper. 
+Otherwise, use citation principles below.
+
+Further readings:
+- &lt;a name=cite-parsons2019&gt;&lt;/a&gt;[[PDJ19](https://doi.org/10.5334/dsj-2019-052)]: _The History and Future of Data Citation in Practice_
+
+- &lt;a name=cite-callaghan2014&gt;&lt;/a&gt;[[Cal14](https://www.force11.org/datacitationprinciples)]: _Joint declaration of data citation principles_
+
+- &lt;a name=cite-smith2016&gt;&lt;/a&gt;[[SKN16](https://doi.org/10.7717/peerj-cs.86)]: _Software citation principles_
+
+- [[SM14](https://doi.org/10.5334/jors.ay)]: _Best Practices for Computational Science: Software Infrastructure and Environments for Reproducible and Extensible Research_
+
+
+---
+
+# References (I)
+
+&lt;a name=bib-callaghan2014&gt;&lt;/a&gt;[Callaghan, S](#cite-callaghan2014)
+(2014). "Joint declaration of data citation principles".
+
+URL:
+[https://www.force11.org/datacitationprinciples](https://www.force11.org/datacitationprinciples).
+
+&lt;a name=bib-nust2018&gt;&lt;/a&gt;[Nust, D, C Granell, et
+al.](#cite-nust2018) (2018). "Reproducible research and GIScience:
+an evaluation using AGILE conference papers". In: _PeerJ_ 6, p.
+e5072. URL:
+[https://doi.org/10.7717/peerj.5072](https://doi.org/10.7717/peerj.5072).
+
+&lt;a name=bib-parsons2019&gt;&lt;/a&gt;[Parsons, MA, RE Duerr, et
+al.](#cite-parsons2019) (2019). "The History and Future of Data
+Citation in Practice". In: _Data Science Journal_ 18.1. URL:
+[https://doi.org/10.5334/dsj-2019-052](https://doi.org/10.5334/dsj-2019-052).
+
+&lt;a name=bib-rule2019&gt;&lt;/a&gt;[Rule, A, A Birmingham, et
+al.](#cite-rule2019) (2019). "Ten simple rules for reproducible
+research in Jupyter notebooks". In: _PLoS computational biology_
+15.7, p.  e1007007. URL:
+[https://dx.doi.org/10.1371/journal.pcbi.1007007](https://dx.doi.org/10.1371/journal.pcbi.1007007).
+
+&lt;a name=bib-smith2016&gt;&lt;/a&gt;[Smith, AM, DS Katz, et
+al.](#cite-smith2016) (2016). "Software citation principles". In:
+_PeerJ Computer Science_ 2, p. e86. URL:
+[https://doi.org/10.7717/peerj-cs.86](https://doi.org/10.7717/peerj-cs.86).
+
+
+---
+
+# References (II)
+
+&lt;a name=bib-stodden2014&gt;&lt;/a&gt;[Stodden, V and SB
+Miguez](#cite-stodden2014) (2014). "Best Practices for
+Computational Science: Software Infrastructure and Environments
+for Reproducible and Extensible Research". In: _Journal of Open
+Research Software_ 2.1, p. e21. URL:
+[https://doi.org/10.5334/jors.ay](https://doi.org/10.5334/jors.ay).
+
+&lt;a name=bib-wilson2017&gt;&lt;/a&gt;[Wilson, G, J Bryan, et
+al.](#cite-wilson2017) (2017). "Good enough practices in
+scientific computing". In: _PLoS Computacional Biology_ 13.6, p.
+e1005510. URL:
+[https://dx.doi.org/10.1371/journal.pcbi.1005510](https://dx.doi.org/10.1371/journal.pcbi.1005510).
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

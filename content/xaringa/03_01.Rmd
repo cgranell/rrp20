@@ -1,0 +1,90 @@
+---
+title: "[03_01] Write code"
+subtitle: "[03] Iterative workflow <br> <small>RRP'20</small>"
+author: "[Carlos Granell](http://carlosgranell.eu/), [GEOTEC research group](http://geotec.uji.es/)"
+institute: "Universitat Jaume I"
+date: "March 2020"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+layout: true
+
+background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
+background-position: left bottom
+background-size: 15%
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r load_refs, include=FALSE, cache=FALSE}
+source("load_references.r")
+```
+
+
+---
+
+# A simple reproducible project workflow
+
+.pull-left[
+.center[<img src="figs/simpleworkflow-bes.png" width="65%"/>
+]]
+
+.pull-right[
+- Intermediate workflow
+
+  - 03: RRP - Iterative workflow
+]]
+
+
+---
+class: inverse
+
+# Practices
+
+Repeat until a task's is done:
+
+--
+
+##1 Write code 
+
+--
+
+##2 Commit the code to version control  
+
+
+---
+
+#1 Write code
+
+- Follow file names conventions
+
+  - eg: `01_download_data.R`
+
+  - eg: `02_data_preparation.R`
+
+- Follow coding style of choice to code, test, comment, check...
+
+---
+
+#2 Commit the code to version control  
+
+- When you are satisfied with new addtions/editions
+
+  - **Commit** them to VCS
+
+- You can always roll back to a previous version
+
+- Example `Survey` project: data & code available in this [RStudio Cloud project](https://rstudio.cloud/project/1104798)
+
+  - Don't miss video _Survey project: data and code_!
+
+

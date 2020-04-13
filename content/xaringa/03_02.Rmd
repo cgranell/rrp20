@@ -1,0 +1,179 @@
+---
+title: "[03_02] Markdown and computational notebooks"
+subtitle: "[03] Iterative workflow <br> <small>RRP'20</small>"
+author: "[Carlos Granell](http://carlosgranell.eu/), [GEOTEC research group](http://geotec.uji.es/)"
+institute: "Universitat Jaume I"
+date: "March 2020"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+layout: true
+
+background-image: url(http://geotec.uji.es/wp-content/uploads/2016/11/geotecLOGO.fw_.png)
+background-position: left bottom
+background-size: 15%
+
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+```{r load_refs, include=FALSE, cache=FALSE}
+source("load_references.r")
+```
+
+
+---
+
+# A simple reproducible project workflow
+
+.pull-left[
+.center[<img src="figs/simpleworkflow-bes.png" width="65%"/>
+]]
+
+.pull-right[
+- Intermediate workflow
+
+  - 03: RRP - Iterative workflow
+]]
+
+
+---
+class: inverse
+
+# Practices
+
+--
+
+##1 Use Markdown as text format  
+
+--
+
+##2 Write computational notebooks
+
+
+---
+
+#1 Use Markdown as text format 
+
+You will need to document your project by writing :
+
+- One README file (_always!_)
+
+- One or more README files in other subfolders (_if required_)
+
+- project rationale and notes in folder `notes`
+
+- scientific articles in folder `doc`
+
+- computational notebooks in folder `reports`
+
+- books, slides, dashboards, etc.
+
+How many formats and tools do you need?
+
+---
+
+#1 Use Markdown as text format 
+
+**Markdown** can be used for everything!! 
+
+[Markdown](https://www.markdownguide.org/) is a lightweight markup language to add formatting elements to plain text documents
+
+These resources are a good starting point:
+- [Markdown basic syntax reference](https://www.markdownguide.org/basic-syntax)
+
+- [Markdown cheatsheet](https://www.markdownguide.org/cheat-sheet/)
+
+Don't miss video _Survey project: create README file with Markdown_! 
+
+Further readings:
+- `r Cite(my_refs, "xie2018")`: _`r my_refs["xie2018"]$title`_
+
+---
+
+#2 Write computational notebooks 
+
+**Computational notebooks** belong to the [literate programming](https://en.wikipedia.org/wiki/Literate_programming) approach that combines text and code in the same document.
+
+In R, **computational notebooks = R Markdown** documents:
+- prose (narrative text) in Markdown
+
+- source code in R programming language 
+
+Airbnb uses R Markdown to document all their analyses in R! - See `r Cite(my_refs, "bion2018")`: _`r my_refs["bion2018"]$title`_
+
+---
+
+#2 Write computational notebooks
+
+_Why must I create computational notebooks?_
+
+--
+
+- it captures your **entire analysis process** in one document
+
+--
+
+- it is **live document**  
+
+--
+
+- it can be rendered in **several output formats** (PDF, HTML)
+
+---
+
+#2 Write computational notebooks
+
+_How can others take advantage of my computational notebooks?_
+
+--
+
+Others can **read**, **run** and **explore** them!
+
+--
+
+- you can support others **reading** your analysis (eg. attaching HTML/PDF version to your paper, publishing it in [Rpubs](http://rpubs.com/))
+
+--
+
+- you can support others **running** your notebooks in the cloud (eg. [Binder](https://mybinder.org/))
+
+--
+
+- you can support other **exploring** your analysis by changing parameter (eg. sliders, dashboards)
+
+---
+
+#2 Write computational notebooks
+
+ 
+- Create a R Markdown file
+  - _File > New File > R Markdow_
+
+- Add narrative text as normal Markdown syntax,
+
+- Add code chunks using curly braces`{r` and `}`, and finally 
+
+Check the video _Survey project: create a computational report with R Markdown_!
+
+Further readings:
+- `r Cite(my_refs, "xie2019")`: _`r my_refs["xie2019"]$title`_
+
+- [R Markdown Cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+
+---
+
+# References (I)
+
+```{r print_refs1, echo=FALSE, results="asis"}
+PrintBibliography(my_refs)
+```
+
